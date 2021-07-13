@@ -1,0 +1,28 @@
+Từ khóa:
+    Các từ khóa sẽ dùng để khai báo dữ liệu, câu lệnh,v.v....
+    => Khi đặt tên biến, hàm,v.v... thì mình sẽ không được đặt trùng với các từ khóa
+    VD: Sự khác nhau giữa main (Từ khóa) và Main (có thể là tên hàm hoặc tên biến)
+
+Tên:
+    - 1 chuỗi ký tự liên tục
+    - Chuỗi ký tự có thể bao gồm: Ký tự chữ, số và dấu gạch dưới.
+    - Ký tự đầu của tên phải là chữ hoặc dấu gạch dưới.
+    - Tên không được trùng với từ khóa
+*Note: Quy tắc đặt tên theo Hugarian Notation
+    - Tên phải thể hiện được ý nghĩa của nó.
+    - Tên được mã hóa(vd: int iNumber, float fNumber,char cText,v.v...)
+
+Kiểu dữ liệu:
+    - 4 kiểu dữ liệu cơ bản: char(1 byte), int(2 bytes), float(4 bytes), double(8 bytes).
+
+Dấu mô tả:
+    - %c: Ký tự đơn
+    - %s: Chuỗi
+    - %d: Số nguyên thập phân có dấu
+    - %f: số chấm động(ký hiệu thập phân)
+    - %e: Số chấm động (ký hiệu có số mũ)
+    - %g: Số chấm động(%f hay %g)
+    - %x: Số nguyên thập phân không đấu
+    - %u: Số nguyên hex không dấu
+    - %o: Số nguyên bát phân không dấu.
+    - l: Tiền tố dùng kìem với %d, %u, %x, %o để chỉ số nguyên dài(vd: %ld)

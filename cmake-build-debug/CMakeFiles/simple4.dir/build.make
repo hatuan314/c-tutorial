@@ -76,27 +76,27 @@ include CMakeFiles/simple4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/simple4.dir/flags.make
 
-CMakeFiles/simple4.dir/ss1/simple4.c.o: CMakeFiles/simple4.dir/flags.make
-CMakeFiles/simple4.dir/ss1/simple4.c.o: ../ss1/simple4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/simple4.dir/ss1/simple4.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/simple4.dir/ss1/simple4.c.o -c /Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1/simple4.c
+CMakeFiles/simple4.dir/ss1_intro/simple4.c.o: CMakeFiles/simple4.dir/flags.make
+CMakeFiles/simple4.dir/ss1_intro/simple4.c.o: ../ss1_intro/simple4.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/simple4.dir/ss1_intro/simple4.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/simple4.dir/ss1_intro/simple4.c.o -c /Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1_intro/simple4.c
 
-CMakeFiles/simple4.dir/ss1/simple4.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/simple4.dir/ss1/simple4.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1/simple4.c > CMakeFiles/simple4.dir/ss1/simple4.c.i
+CMakeFiles/simple4.dir/ss1_intro/simple4.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/simple4.dir/ss1_intro/simple4.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1_intro/simple4.c > CMakeFiles/simple4.dir/ss1_intro/simple4.c.i
 
-CMakeFiles/simple4.dir/ss1/simple4.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/simple4.dir/ss1/simple4.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1/simple4.c -o CMakeFiles/simple4.dir/ss1/simple4.c.s
+CMakeFiles/simple4.dir/ss1_intro/simple4.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/simple4.dir/ss1_intro/simple4.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1_intro/simple4.c -o CMakeFiles/simple4.dir/ss1_intro/simple4.c.s
 
 # Object files for target simple4
 simple4_OBJECTS = \
-"CMakeFiles/simple4.dir/ss1/simple4.c.o"
+"CMakeFiles/simple4.dir/ss1_intro/simple4.c.o"
 
 # External object files for target simple4
 simple4_EXTERNAL_OBJECTS =
 
-simple4: CMakeFiles/simple4.dir/ss1/simple4.c.o
+simple4: CMakeFiles/simple4.dir/ss1_intro/simple4.c.o
 simple4: CMakeFiles/simple4.dir/build.make
 simple4: CMakeFiles/simple4.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable simple4"

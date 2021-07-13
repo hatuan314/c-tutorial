@@ -269,16 +269,16 @@
 		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/main.c">
 			<Option target="c_tutorial"/>
 		</Unit>
-		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1/simple1.c">
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1_intro/simple1.c">
 			<Option target="simple1"/>
 		</Unit>
-		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1/simple2.c">
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1_intro/simple2.c">
 			<Option target="simple2"/>
 		</Unit>
-		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1/simple3.c">
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1_intro/simple3.c">
 			<Option target="simple3"/>
 		</Unit>
-		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1/simple4.c">
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1_intro/simple4.c">
 			<Option target="simple4"/>
 		</Unit>
 		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/test.c">
