@@ -130,6 +130,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named example7
+
+# Build rule for target.
+example7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example7
+.PHONY : example7
+
+# fast build rule for target.
+example7/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example7.dir/build.make CMakeFiles/example7.dir/build
+.PHONY : example7/fast
+
+#=============================================================================
+# Target rules for targets named example2
+
+# Build rule for target.
+example2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example2
+.PHONY : example2
+
+# fast build rule for target.
+example2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example2.dir/build.make CMakeFiles/example2.dir/build
+.PHONY : example2/fast
+
+#=============================================================================
+# Target rules for targets named c_tutorial
+
+# Build rule for target.
+c_tutorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_tutorial
+.PHONY : c_tutorial
+
+# fast build rule for target.
+c_tutorial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_tutorial.dir/build.make CMakeFiles/c_tutorial.dir/build
+.PHONY : c_tutorial/fast
+
+#=============================================================================
+# Target rules for targets named example4
+
+# Build rule for target.
+example4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example4
+.PHONY : example4
+
+# fast build rule for target.
+example4/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example4.dir/build.make CMakeFiles/example4.dir/build
+.PHONY : example4/fast
+
+#=============================================================================
+# Target rules for targets named simple3
+
+# Build rule for target.
+simple3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple3
+.PHONY : simple3
+
+# fast build rule for target.
+simple3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple3.dir/build.make CMakeFiles/simple3.dir/build
+.PHONY : simple3/fast
+
+#=============================================================================
+# Target rules for targets named example1
+
+# Build rule for target.
+example1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example1
+.PHONY : example1
+
+# fast build rule for target.
+example1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example1.dir/build.make CMakeFiles/example1.dir/build
+.PHONY : example1/fast
+
+#=============================================================================
 # Target rules for targets named simple4
 
 # Build rule for target.
@@ -141,6 +219,32 @@ simple4: cmake_check_build_system
 simple4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple4.dir/build.make CMakeFiles/simple4.dir/build
 .PHONY : simple4/fast
+
+#=============================================================================
+# Target rules for targets named example6
+
+# Build rule for target.
+example6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example6
+.PHONY : example6
+
+# fast build rule for target.
+example6/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example6.dir/build.make CMakeFiles/example6.dir/build
+.PHONY : example6/fast
+
+#=============================================================================
+# Target rules for targets named example3
+
+# Build rule for target.
+example3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example3
+.PHONY : example3
+
+# fast build rule for target.
+example3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example3.dir/build.make CMakeFiles/example3.dir/build
+.PHONY : example3/fast
 
 #=============================================================================
 # Target rules for targets named simple2
@@ -156,17 +260,17 @@ simple2/fast:
 .PHONY : simple2/fast
 
 #=============================================================================
-# Target rules for targets named simple3
+# Target rules for targets named example5
 
 # Build rule for target.
-simple3: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple3
-.PHONY : simple3
+example5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example5
+.PHONY : example5
 
 # fast build rule for target.
-simple3/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple3.dir/build.make CMakeFiles/simple3.dir/build
-.PHONY : simple3/fast
+example5/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example5.dir/build.make CMakeFiles/example5.dir/build
+.PHONY : example5/fast
 
 #=============================================================================
 # Target rules for targets named simple1
@@ -194,18 +298,194 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-#=============================================================================
-# Target rules for targets named c_tutorial
+Homeworks/homework_1st/example1.o: Homeworks/homework_1st/example1.c.o
 
-# Build rule for target.
-c_tutorial: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_tutorial
-.PHONY : c_tutorial
+.PHONY : Homeworks/homework_1st/example1.o
 
-# fast build rule for target.
-c_tutorial/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_tutorial.dir/build.make CMakeFiles/c_tutorial.dir/build
-.PHONY : c_tutorial/fast
+# target to build an object file
+Homeworks/homework_1st/example1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example1.dir/build.make CMakeFiles/example1.dir/Homeworks/homework_1st/example1.c.o
+.PHONY : Homeworks/homework_1st/example1.c.o
+
+Homeworks/homework_1st/example1.i: Homeworks/homework_1st/example1.c.i
+
+.PHONY : Homeworks/homework_1st/example1.i
+
+# target to preprocess a source file
+Homeworks/homework_1st/example1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example1.dir/build.make CMakeFiles/example1.dir/Homeworks/homework_1st/example1.c.i
+.PHONY : Homeworks/homework_1st/example1.c.i
+
+Homeworks/homework_1st/example1.s: Homeworks/homework_1st/example1.c.s
+
+.PHONY : Homeworks/homework_1st/example1.s
+
+# target to generate assembly for a file
+Homeworks/homework_1st/example1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example1.dir/build.make CMakeFiles/example1.dir/Homeworks/homework_1st/example1.c.s
+.PHONY : Homeworks/homework_1st/example1.c.s
+
+Homeworks/homework_1st/example2.o: Homeworks/homework_1st/example2.c.o
+
+.PHONY : Homeworks/homework_1st/example2.o
+
+# target to build an object file
+Homeworks/homework_1st/example2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example2.dir/build.make CMakeFiles/example2.dir/Homeworks/homework_1st/example2.c.o
+.PHONY : Homeworks/homework_1st/example2.c.o
+
+Homeworks/homework_1st/example2.i: Homeworks/homework_1st/example2.c.i
+
+.PHONY : Homeworks/homework_1st/example2.i
+
+# target to preprocess a source file
+Homeworks/homework_1st/example2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example2.dir/build.make CMakeFiles/example2.dir/Homeworks/homework_1st/example2.c.i
+.PHONY : Homeworks/homework_1st/example2.c.i
+
+Homeworks/homework_1st/example2.s: Homeworks/homework_1st/example2.c.s
+
+.PHONY : Homeworks/homework_1st/example2.s
+
+# target to generate assembly for a file
+Homeworks/homework_1st/example2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example2.dir/build.make CMakeFiles/example2.dir/Homeworks/homework_1st/example2.c.s
+.PHONY : Homeworks/homework_1st/example2.c.s
+
+Homeworks/homework_1st/example3.o: Homeworks/homework_1st/example3.c.o
+
+.PHONY : Homeworks/homework_1st/example3.o
+
+# target to build an object file
+Homeworks/homework_1st/example3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example3.dir/build.make CMakeFiles/example3.dir/Homeworks/homework_1st/example3.c.o
+.PHONY : Homeworks/homework_1st/example3.c.o
+
+Homeworks/homework_1st/example3.i: Homeworks/homework_1st/example3.c.i
+
+.PHONY : Homeworks/homework_1st/example3.i
+
+# target to preprocess a source file
+Homeworks/homework_1st/example3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example3.dir/build.make CMakeFiles/example3.dir/Homeworks/homework_1st/example3.c.i
+.PHONY : Homeworks/homework_1st/example3.c.i
+
+Homeworks/homework_1st/example3.s: Homeworks/homework_1st/example3.c.s
+
+.PHONY : Homeworks/homework_1st/example3.s
+
+# target to generate assembly for a file
+Homeworks/homework_1st/example3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example3.dir/build.make CMakeFiles/example3.dir/Homeworks/homework_1st/example3.c.s
+.PHONY : Homeworks/homework_1st/example3.c.s
+
+Homeworks/homework_1st/example4.o: Homeworks/homework_1st/example4.c.o
+
+.PHONY : Homeworks/homework_1st/example4.o
+
+# target to build an object file
+Homeworks/homework_1st/example4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example4.dir/build.make CMakeFiles/example4.dir/Homeworks/homework_1st/example4.c.o
+.PHONY : Homeworks/homework_1st/example4.c.o
+
+Homeworks/homework_1st/example4.i: Homeworks/homework_1st/example4.c.i
+
+.PHONY : Homeworks/homework_1st/example4.i
+
+# target to preprocess a source file
+Homeworks/homework_1st/example4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example4.dir/build.make CMakeFiles/example4.dir/Homeworks/homework_1st/example4.c.i
+.PHONY : Homeworks/homework_1st/example4.c.i
+
+Homeworks/homework_1st/example4.s: Homeworks/homework_1st/example4.c.s
+
+.PHONY : Homeworks/homework_1st/example4.s
+
+# target to generate assembly for a file
+Homeworks/homework_1st/example4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example4.dir/build.make CMakeFiles/example4.dir/Homeworks/homework_1st/example4.c.s
+.PHONY : Homeworks/homework_1st/example4.c.s
+
+Homeworks/homework_1st/example5.o: Homeworks/homework_1st/example5.c.o
+
+.PHONY : Homeworks/homework_1st/example5.o
+
+# target to build an object file
+Homeworks/homework_1st/example5.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example5.dir/build.make CMakeFiles/example5.dir/Homeworks/homework_1st/example5.c.o
+.PHONY : Homeworks/homework_1st/example5.c.o
+
+Homeworks/homework_1st/example5.i: Homeworks/homework_1st/example5.c.i
+
+.PHONY : Homeworks/homework_1st/example5.i
+
+# target to preprocess a source file
+Homeworks/homework_1st/example5.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example5.dir/build.make CMakeFiles/example5.dir/Homeworks/homework_1st/example5.c.i
+.PHONY : Homeworks/homework_1st/example5.c.i
+
+Homeworks/homework_1st/example5.s: Homeworks/homework_1st/example5.c.s
+
+.PHONY : Homeworks/homework_1st/example5.s
+
+# target to generate assembly for a file
+Homeworks/homework_1st/example5.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example5.dir/build.make CMakeFiles/example5.dir/Homeworks/homework_1st/example5.c.s
+.PHONY : Homeworks/homework_1st/example5.c.s
+
+Homeworks/homework_1st/example6.o: Homeworks/homework_1st/example6.c.o
+
+.PHONY : Homeworks/homework_1st/example6.o
+
+# target to build an object file
+Homeworks/homework_1st/example6.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example6.dir/build.make CMakeFiles/example6.dir/Homeworks/homework_1st/example6.c.o
+.PHONY : Homeworks/homework_1st/example6.c.o
+
+Homeworks/homework_1st/example6.i: Homeworks/homework_1st/example6.c.i
+
+.PHONY : Homeworks/homework_1st/example6.i
+
+# target to preprocess a source file
+Homeworks/homework_1st/example6.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example6.dir/build.make CMakeFiles/example6.dir/Homeworks/homework_1st/example6.c.i
+.PHONY : Homeworks/homework_1st/example6.c.i
+
+Homeworks/homework_1st/example6.s: Homeworks/homework_1st/example6.c.s
+
+.PHONY : Homeworks/homework_1st/example6.s
+
+# target to generate assembly for a file
+Homeworks/homework_1st/example6.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example6.dir/build.make CMakeFiles/example6.dir/Homeworks/homework_1st/example6.c.s
+.PHONY : Homeworks/homework_1st/example6.c.s
+
+Homeworks/homework_1st/example7.o: Homeworks/homework_1st/example7.c.o
+
+.PHONY : Homeworks/homework_1st/example7.o
+
+# target to build an object file
+Homeworks/homework_1st/example7.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example7.dir/build.make CMakeFiles/example7.dir/Homeworks/homework_1st/example7.c.o
+.PHONY : Homeworks/homework_1st/example7.c.o
+
+Homeworks/homework_1st/example7.i: Homeworks/homework_1st/example7.c.i
+
+.PHONY : Homeworks/homework_1st/example7.i
+
+# target to preprocess a source file
+Homeworks/homework_1st/example7.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example7.dir/build.make CMakeFiles/example7.dir/Homeworks/homework_1st/example7.c.i
+.PHONY : Homeworks/homework_1st/example7.c.i
+
+Homeworks/homework_1st/example7.s: Homeworks/homework_1st/example7.c.s
+
+.PHONY : Homeworks/homework_1st/example7.s
+
+# target to generate assembly for a file
+Homeworks/homework_1st/example7.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example7.dir/build.make CMakeFiles/example7.dir/Homeworks/homework_1st/example7.c.s
+.PHONY : Homeworks/homework_1st/example7.c.s
 
 Sessions/ss1_intro/simple1.o: Sessions/ss1_intro/simple1.c.o
 
@@ -378,11 +658,39 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... c_tutorial"
+	@echo "... example1"
+	@echo "... example2"
+	@echo "... example3"
+	@echo "... example4"
+	@echo "... example5"
+	@echo "... example6"
+	@echo "... example7"
 	@echo "... simple1"
 	@echo "... simple2"
 	@echo "... simple3"
 	@echo "... simple4"
 	@echo "... test"
+	@echo "... Homeworks/homework_1st/example1.o"
+	@echo "... Homeworks/homework_1st/example1.i"
+	@echo "... Homeworks/homework_1st/example1.s"
+	@echo "... Homeworks/homework_1st/example2.o"
+	@echo "... Homeworks/homework_1st/example2.i"
+	@echo "... Homeworks/homework_1st/example2.s"
+	@echo "... Homeworks/homework_1st/example3.o"
+	@echo "... Homeworks/homework_1st/example3.i"
+	@echo "... Homeworks/homework_1st/example3.s"
+	@echo "... Homeworks/homework_1st/example4.o"
+	@echo "... Homeworks/homework_1st/example4.i"
+	@echo "... Homeworks/homework_1st/example4.s"
+	@echo "... Homeworks/homework_1st/example5.o"
+	@echo "... Homeworks/homework_1st/example5.i"
+	@echo "... Homeworks/homework_1st/example5.s"
+	@echo "... Homeworks/homework_1st/example6.o"
+	@echo "... Homeworks/homework_1st/example6.i"
+	@echo "... Homeworks/homework_1st/example6.s"
+	@echo "... Homeworks/homework_1st/example7.o"
+	@echo "... Homeworks/homework_1st/example7.i"
+	@echo "... Homeworks/homework_1st/example7.s"
 	@echo "... Sessions/ss1_intro/simple1.o"
 	@echo "... Sessions/ss1_intro/simple1.i"
 	@echo "... Sessions/ss1_intro/simple1.s"
