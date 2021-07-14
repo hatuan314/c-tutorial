@@ -207,6 +207,114 @@ c_tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_tutorial.dir/build.make CMakeFiles/c_tutorial.dir/build
 .PHONY : c_tutorial/fast
 
+Sessions/ss1_intro/simple1.o: Sessions/ss1_intro/simple1.c.o
+
+.PHONY : Sessions/ss1_intro/simple1.o
+
+# target to build an object file
+Sessions/ss1_intro/simple1.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple1.dir/build.make CMakeFiles/simple1.dir/Sessions/ss1_intro/simple1.c.o
+.PHONY : Sessions/ss1_intro/simple1.c.o
+
+Sessions/ss1_intro/simple1.i: Sessions/ss1_intro/simple1.c.i
+
+.PHONY : Sessions/ss1_intro/simple1.i
+
+# target to preprocess a source file
+Sessions/ss1_intro/simple1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple1.dir/build.make CMakeFiles/simple1.dir/Sessions/ss1_intro/simple1.c.i
+.PHONY : Sessions/ss1_intro/simple1.c.i
+
+Sessions/ss1_intro/simple1.s: Sessions/ss1_intro/simple1.c.s
+
+.PHONY : Sessions/ss1_intro/simple1.s
+
+# target to generate assembly for a file
+Sessions/ss1_intro/simple1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple1.dir/build.make CMakeFiles/simple1.dir/Sessions/ss1_intro/simple1.c.s
+.PHONY : Sessions/ss1_intro/simple1.c.s
+
+Sessions/ss1_intro/simple2.o: Sessions/ss1_intro/simple2.c.o
+
+.PHONY : Sessions/ss1_intro/simple2.o
+
+# target to build an object file
+Sessions/ss1_intro/simple2.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple2.dir/build.make CMakeFiles/simple2.dir/Sessions/ss1_intro/simple2.c.o
+.PHONY : Sessions/ss1_intro/simple2.c.o
+
+Sessions/ss1_intro/simple2.i: Sessions/ss1_intro/simple2.c.i
+
+.PHONY : Sessions/ss1_intro/simple2.i
+
+# target to preprocess a source file
+Sessions/ss1_intro/simple2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple2.dir/build.make CMakeFiles/simple2.dir/Sessions/ss1_intro/simple2.c.i
+.PHONY : Sessions/ss1_intro/simple2.c.i
+
+Sessions/ss1_intro/simple2.s: Sessions/ss1_intro/simple2.c.s
+
+.PHONY : Sessions/ss1_intro/simple2.s
+
+# target to generate assembly for a file
+Sessions/ss1_intro/simple2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple2.dir/build.make CMakeFiles/simple2.dir/Sessions/ss1_intro/simple2.c.s
+.PHONY : Sessions/ss1_intro/simple2.c.s
+
+Sessions/ss1_intro/simple3.o: Sessions/ss1_intro/simple3.c.o
+
+.PHONY : Sessions/ss1_intro/simple3.o
+
+# target to build an object file
+Sessions/ss1_intro/simple3.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple3.dir/build.make CMakeFiles/simple3.dir/Sessions/ss1_intro/simple3.c.o
+.PHONY : Sessions/ss1_intro/simple3.c.o
+
+Sessions/ss1_intro/simple3.i: Sessions/ss1_intro/simple3.c.i
+
+.PHONY : Sessions/ss1_intro/simple3.i
+
+# target to preprocess a source file
+Sessions/ss1_intro/simple3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple3.dir/build.make CMakeFiles/simple3.dir/Sessions/ss1_intro/simple3.c.i
+.PHONY : Sessions/ss1_intro/simple3.c.i
+
+Sessions/ss1_intro/simple3.s: Sessions/ss1_intro/simple3.c.s
+
+.PHONY : Sessions/ss1_intro/simple3.s
+
+# target to generate assembly for a file
+Sessions/ss1_intro/simple3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple3.dir/build.make CMakeFiles/simple3.dir/Sessions/ss1_intro/simple3.c.s
+.PHONY : Sessions/ss1_intro/simple3.c.s
+
+Sessions/ss1_intro/simple4.o: Sessions/ss1_intro/simple4.c.o
+
+.PHONY : Sessions/ss1_intro/simple4.o
+
+# target to build an object file
+Sessions/ss1_intro/simple4.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple4.dir/build.make CMakeFiles/simple4.dir/Sessions/ss1_intro/simple4.c.o
+.PHONY : Sessions/ss1_intro/simple4.c.o
+
+Sessions/ss1_intro/simple4.i: Sessions/ss1_intro/simple4.c.i
+
+.PHONY : Sessions/ss1_intro/simple4.i
+
+# target to preprocess a source file
+Sessions/ss1_intro/simple4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple4.dir/build.make CMakeFiles/simple4.dir/Sessions/ss1_intro/simple4.c.i
+.PHONY : Sessions/ss1_intro/simple4.c.i
+
+Sessions/ss1_intro/simple4.s: Sessions/ss1_intro/simple4.c.s
+
+.PHONY : Sessions/ss1_intro/simple4.s
+
+# target to generate assembly for a file
+Sessions/ss1_intro/simple4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple4.dir/build.make CMakeFiles/simple4.dir/Sessions/ss1_intro/simple4.c.s
+.PHONY : Sessions/ss1_intro/simple4.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -233,114 +341,6 @@ main.s: main.c.s
 main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_tutorial.dir/build.make CMakeFiles/c_tutorial.dir/main.c.s
 .PHONY : main.c.s
-
-ss1_intro/simple1.o: ss1_intro/simple1.c.o
-
-.PHONY : ss1_intro/simple1.o
-
-# target to build an object file
-ss1_intro/simple1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple1.dir/build.make CMakeFiles/simple1.dir/ss1_intro/simple1.c.o
-.PHONY : ss1_intro/simple1.c.o
-
-ss1_intro/simple1.i: ss1_intro/simple1.c.i
-
-.PHONY : ss1_intro/simple1.i
-
-# target to preprocess a source file
-ss1_intro/simple1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple1.dir/build.make CMakeFiles/simple1.dir/ss1_intro/simple1.c.i
-.PHONY : ss1_intro/simple1.c.i
-
-ss1_intro/simple1.s: ss1_intro/simple1.c.s
-
-.PHONY : ss1_intro/simple1.s
-
-# target to generate assembly for a file
-ss1_intro/simple1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple1.dir/build.make CMakeFiles/simple1.dir/ss1_intro/simple1.c.s
-.PHONY : ss1_intro/simple1.c.s
-
-ss1_intro/simple2.o: ss1_intro/simple2.c.o
-
-.PHONY : ss1_intro/simple2.o
-
-# target to build an object file
-ss1_intro/simple2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple2.dir/build.make CMakeFiles/simple2.dir/ss1_intro/simple2.c.o
-.PHONY : ss1_intro/simple2.c.o
-
-ss1_intro/simple2.i: ss1_intro/simple2.c.i
-
-.PHONY : ss1_intro/simple2.i
-
-# target to preprocess a source file
-ss1_intro/simple2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple2.dir/build.make CMakeFiles/simple2.dir/ss1_intro/simple2.c.i
-.PHONY : ss1_intro/simple2.c.i
-
-ss1_intro/simple2.s: ss1_intro/simple2.c.s
-
-.PHONY : ss1_intro/simple2.s
-
-# target to generate assembly for a file
-ss1_intro/simple2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple2.dir/build.make CMakeFiles/simple2.dir/ss1_intro/simple2.c.s
-.PHONY : ss1_intro/simple2.c.s
-
-ss1_intro/simple3.o: ss1_intro/simple3.c.o
-
-.PHONY : ss1_intro/simple3.o
-
-# target to build an object file
-ss1_intro/simple3.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple3.dir/build.make CMakeFiles/simple3.dir/ss1_intro/simple3.c.o
-.PHONY : ss1_intro/simple3.c.o
-
-ss1_intro/simple3.i: ss1_intro/simple3.c.i
-
-.PHONY : ss1_intro/simple3.i
-
-# target to preprocess a source file
-ss1_intro/simple3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple3.dir/build.make CMakeFiles/simple3.dir/ss1_intro/simple3.c.i
-.PHONY : ss1_intro/simple3.c.i
-
-ss1_intro/simple3.s: ss1_intro/simple3.c.s
-
-.PHONY : ss1_intro/simple3.s
-
-# target to generate assembly for a file
-ss1_intro/simple3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple3.dir/build.make CMakeFiles/simple3.dir/ss1_intro/simple3.c.s
-.PHONY : ss1_intro/simple3.c.s
-
-ss1_intro/simple4.o: ss1_intro/simple4.c.o
-
-.PHONY : ss1_intro/simple4.o
-
-# target to build an object file
-ss1_intro/simple4.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple4.dir/build.make CMakeFiles/simple4.dir/ss1_intro/simple4.c.o
-.PHONY : ss1_intro/simple4.c.o
-
-ss1_intro/simple4.i: ss1_intro/simple4.c.i
-
-.PHONY : ss1_intro/simple4.i
-
-# target to preprocess a source file
-ss1_intro/simple4.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple4.dir/build.make CMakeFiles/simple4.dir/ss1_intro/simple4.c.i
-.PHONY : ss1_intro/simple4.c.i
-
-ss1_intro/simple4.s: ss1_intro/simple4.c.s
-
-.PHONY : ss1_intro/simple4.s
-
-# target to generate assembly for a file
-ss1_intro/simple4.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple4.dir/build.make CMakeFiles/simple4.dir/ss1_intro/simple4.c.s
-.PHONY : ss1_intro/simple4.c.s
 
 test.o: test.c.o
 
@@ -383,21 +383,21 @@ help:
 	@echo "... simple3"
 	@echo "... simple4"
 	@echo "... test"
+	@echo "... Sessions/ss1_intro/simple1.o"
+	@echo "... Sessions/ss1_intro/simple1.i"
+	@echo "... Sessions/ss1_intro/simple1.s"
+	@echo "... Sessions/ss1_intro/simple2.o"
+	@echo "... Sessions/ss1_intro/simple2.i"
+	@echo "... Sessions/ss1_intro/simple2.s"
+	@echo "... Sessions/ss1_intro/simple3.o"
+	@echo "... Sessions/ss1_intro/simple3.i"
+	@echo "... Sessions/ss1_intro/simple3.s"
+	@echo "... Sessions/ss1_intro/simple4.o"
+	@echo "... Sessions/ss1_intro/simple4.i"
+	@echo "... Sessions/ss1_intro/simple4.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... ss1_intro/simple1.o"
-	@echo "... ss1_intro/simple1.i"
-	@echo "... ss1_intro/simple1.s"
-	@echo "... ss1_intro/simple2.o"
-	@echo "... ss1_intro/simple2.i"
-	@echo "... ss1_intro/simple2.s"
-	@echo "... ss1_intro/simple3.o"
-	@echo "... ss1_intro/simple3.i"
-	@echo "... ss1_intro/simple3.s"
-	@echo "... ss1_intro/simple4.o"
-	@echo "... ss1_intro/simple4.i"
-	@echo "... ss1_intro/simple4.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"

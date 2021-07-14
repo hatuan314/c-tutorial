@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/tuanha/Work/KIT/C_lang/c-tutorial/ss1_intro/simple4.c" "/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple4.dir/ss1_intro/simple4.c.o"
+  "/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss1_intro/simple4.c" "/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple4.dir/Sessions/ss1_intro/simple4.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

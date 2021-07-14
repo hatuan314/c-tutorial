@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/simple3.dir/ss1_intro/simple3.c.o"
+  "CMakeFiles/simple3.dir/Sessions/ss1_intro/simple3.c.o"
   "simple3"
   "simple3.pdb"
 )
