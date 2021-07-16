@@ -13,9 +13,34 @@ int main() {
     printf("Nhap vao so thu hai:\t");
     scanf("%d", &number2nd);
 
-    printf("Tong %d va %d la: %d + %d = %d\n", number1st, number2nd, number1st, number2nd, number1st + number2nd);
-    printf("Hieu %d va %d la: %d - %d = %d\n", number1st, number2nd, number1st, number2nd, number1st - number2nd);
-    printf("Tich %d va %d la: %d * %d = %d\n", number1st, number2nd, number1st, number2nd, number1st * number2nd);
-    printf("Thuong %d va %d la: %d / %d = %.2f\n", number1st, number2nd, number1st, number2nd,
+    printf("Tong %d va %d la: %d + %d = %d\n",
+           number1st,
+           number2nd,
+           number1st,
+           number2nd,
+           number1st + number2nd);
+    printf("Hieu %d va %d la: %d - %d = %d\n",
+           number1st,
+           number2nd,
+           number1st,
+           number2nd,
+           number1st - number2nd);
+    printf("Tich %d va %d la: %d * %d = %d\n",
+           number1st,
+           number2nd,
+           number1st,
+           number2nd,
+           number1st * number2nd);
+    if (number2nd == 0) {
+        printf(">>>>>>>>>>Error");
+        return 0;
+    }
+    printf("Thuong %d va %d la: %d / %d = %.2f\n",
+           number1st,
+           number2nd,
+           number1st,
+           number2nd,
            (float) number1st / number2nd);
+    return 0;
+
 }

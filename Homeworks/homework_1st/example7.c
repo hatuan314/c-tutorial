@@ -14,11 +14,12 @@ int main() {
     int totalSeconds;
     printf("Nhap vao so giay:\t");
     scanf("%d", &totalSeconds);
+    if (totalSeconds >= 0 && totalSeconds <= 86399) {
+        hours = totalSeconds / hourToSeconds;
+        minutes = (totalSeconds - hours * hourToSeconds) / minuteToSeconds;
+        seconds = totalSeconds - hours * hourToSeconds - minutes * minuteToSeconds;
 
-    hours = totalSeconds / hourToSeconds;
-    minutes = (totalSeconds - hours * hourToSeconds) / minuteToSeconds;
-    seconds = totalSeconds - hours * hourToSeconds - minutes * minuteToSeconds;
-
-    printf("hh:mm:ss ===> %02d:%02d:%02d", hours, minutes, seconds);
+        printf("hh:mm:ss ===> %02d:%02d:%02d", hours, minutes, seconds);
+    }
     return 0;
 }

@@ -7,6 +7,6 @@ int main() {
     int numb;
     printf("Nhap vao mot so nguyen:\t");
     scanf("%d", &numb);
-    printf("%d he hex:\t%o", numb, numb);
+    printf("%d he 8:\t%o", numb, numb);
     return 0;
 }
