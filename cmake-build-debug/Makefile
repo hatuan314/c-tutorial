@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named example21
+
+# Build rule for target.
+example21: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example21
+.PHONY : example21
+
+# fast build rule for target.
+example21/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example21.dir/build.make CMakeFiles/example21.dir/build
+.PHONY : example21/fast
+
+#=============================================================================
 # Target rules for targets named simple33
 
 # Build rule for target.
@@ -312,6 +325,19 @@ example1/fast:
 .PHONY : example1/fast
 
 #=============================================================================
+# Target rules for targets named example25
+
+# Build rule for target.
+example25: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example25
+.PHONY : example25
+
+# fast build rule for target.
+example25/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example25.dir/build.make CMakeFiles/example25.dir/build
+.PHONY : example25/fast
+
+#=============================================================================
 # Target rules for targets named c_tutorial
 
 # Build rule for target.
@@ -323,6 +349,19 @@ c_tutorial: cmake_check_build_system
 c_tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_tutorial.dir/build.make CMakeFiles/c_tutorial.dir/build
 .PHONY : c_tutorial/fast
+
+#=============================================================================
+# Target rules for targets named example22
+
+# Build rule for target.
+example22: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example22
+.PHONY : example22
+
+# fast build rule for target.
+example22/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example22.dir/build.make CMakeFiles/example22.dir/build
+.PHONY : example22/fast
 
 #=============================================================================
 # Target rules for targets named simple2
@@ -709,6 +748,87 @@ Homeworks/homework_1st/homework_review.s: Homeworks/homework_1st/homework_review
 Homeworks/homework_1st/homework_review.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/homework_review.dir/build.make CMakeFiles/homework_review.dir/Homeworks/homework_1st/homework_review.c.s
 .PHONY : Homeworks/homework_1st/homework_review.c.s
+
+Homeworks/homework_2nd/example21.o: Homeworks/homework_2nd/example21.c.o
+
+.PHONY : Homeworks/homework_2nd/example21.o
+
+# target to build an object file
+Homeworks/homework_2nd/example21.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example21.dir/build.make CMakeFiles/example21.dir/Homeworks/homework_2nd/example21.c.o
+.PHONY : Homeworks/homework_2nd/example21.c.o
+
+Homeworks/homework_2nd/example21.i: Homeworks/homework_2nd/example21.c.i
+
+.PHONY : Homeworks/homework_2nd/example21.i
+
+# target to preprocess a source file
+Homeworks/homework_2nd/example21.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example21.dir/build.make CMakeFiles/example21.dir/Homeworks/homework_2nd/example21.c.i
+.PHONY : Homeworks/homework_2nd/example21.c.i
+
+Homeworks/homework_2nd/example21.s: Homeworks/homework_2nd/example21.c.s
+
+.PHONY : Homeworks/homework_2nd/example21.s
+
+# target to generate assembly for a file
+Homeworks/homework_2nd/example21.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example21.dir/build.make CMakeFiles/example21.dir/Homeworks/homework_2nd/example21.c.s
+.PHONY : Homeworks/homework_2nd/example21.c.s
+
+Homeworks/homework_2nd/example22.o: Homeworks/homework_2nd/example22.c.o
+
+.PHONY : Homeworks/homework_2nd/example22.o
+
+# target to build an object file
+Homeworks/homework_2nd/example22.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example22.dir/build.make CMakeFiles/example22.dir/Homeworks/homework_2nd/example22.c.o
+.PHONY : Homeworks/homework_2nd/example22.c.o
+
+Homeworks/homework_2nd/example22.i: Homeworks/homework_2nd/example22.c.i
+
+.PHONY : Homeworks/homework_2nd/example22.i
+
+# target to preprocess a source file
+Homeworks/homework_2nd/example22.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example22.dir/build.make CMakeFiles/example22.dir/Homeworks/homework_2nd/example22.c.i
+.PHONY : Homeworks/homework_2nd/example22.c.i
+
+Homeworks/homework_2nd/example22.s: Homeworks/homework_2nd/example22.c.s
+
+.PHONY : Homeworks/homework_2nd/example22.s
+
+# target to generate assembly for a file
+Homeworks/homework_2nd/example22.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example22.dir/build.make CMakeFiles/example22.dir/Homeworks/homework_2nd/example22.c.s
+.PHONY : Homeworks/homework_2nd/example22.c.s
+
+Homeworks/homework_2nd/example25.o: Homeworks/homework_2nd/example25.c.o
+
+.PHONY : Homeworks/homework_2nd/example25.o
+
+# target to build an object file
+Homeworks/homework_2nd/example25.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example25.dir/build.make CMakeFiles/example25.dir/Homeworks/homework_2nd/example25.c.o
+.PHONY : Homeworks/homework_2nd/example25.c.o
+
+Homeworks/homework_2nd/example25.i: Homeworks/homework_2nd/example25.c.i
+
+.PHONY : Homeworks/homework_2nd/example25.i
+
+# target to preprocess a source file
+Homeworks/homework_2nd/example25.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example25.dir/build.make CMakeFiles/example25.dir/Homeworks/homework_2nd/example25.c.i
+.PHONY : Homeworks/homework_2nd/example25.c.i
+
+Homeworks/homework_2nd/example25.s: Homeworks/homework_2nd/example25.c.s
+
+.PHONY : Homeworks/homework_2nd/example25.s
+
+# target to generate assembly for a file
+Homeworks/homework_2nd/example25.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example25.dir/build.make CMakeFiles/example25.dir/Homeworks/homework_2nd/example25.c.s
+.PHONY : Homeworks/homework_2nd/example25.c.s
 
 Sessions/ss1_intro/simple1.o: Sessions/ss1_intro/simple1.c.o
 
@@ -1180,6 +1300,9 @@ help:
 	@echo "... c_tutorial"
 	@echo "... example1"
 	@echo "... example2"
+	@echo "... example21"
+	@echo "... example22"
+	@echo "... example25"
 	@echo "... example3"
 	@echo "... example4"
 	@echo "... example5"
@@ -1230,6 +1353,15 @@ help:
 	@echo "... Homeworks/homework_1st/homework_review.o"
 	@echo "... Homeworks/homework_1st/homework_review.i"
 	@echo "... Homeworks/homework_1st/homework_review.s"
+	@echo "... Homeworks/homework_2nd/example21.o"
+	@echo "... Homeworks/homework_2nd/example21.i"
+	@echo "... Homeworks/homework_2nd/example21.s"
+	@echo "... Homeworks/homework_2nd/example22.o"
+	@echo "... Homeworks/homework_2nd/example22.i"
+	@echo "... Homeworks/homework_2nd/example22.s"
+	@echo "... Homeworks/homework_2nd/example25.o"
+	@echo "... Homeworks/homework_2nd/example25.i"
+	@echo "... Homeworks/homework_2nd/example25.s"
 	@echo "... Sessions/ss1_intro/simple1.o"
 	@echo "... Sessions/ss1_intro/simple1.i"
 	@echo "... Sessions/ss1_intro/simple1.s"
