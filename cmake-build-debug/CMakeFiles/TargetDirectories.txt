@@ -2,6 +2,7 @@
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple33.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple32.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple31.dir
+/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple36.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/homework_review.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple24.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/example7.dir
@@ -16,8 +17,10 @@
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/c_tutorial.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple2.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple3.dir
+/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple35.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple1.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple21.dir
+/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple34.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple25.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/example2.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple22.dir

@@ -169,6 +169,19 @@ simple31/fast:
 .PHONY : simple31/fast
 
 #=============================================================================
+# Target rules for targets named simple36
+
+# Build rule for target.
+simple36: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple36
+.PHONY : simple36
+
+# fast build rule for target.
+simple36/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple36.dir/build.make CMakeFiles/simple36.dir/build
+.PHONY : simple36/fast
+
+#=============================================================================
 # Target rules for targets named homework_review
 
 # Build rule for target.
@@ -338,6 +351,19 @@ simple3/fast:
 .PHONY : simple3/fast
 
 #=============================================================================
+# Target rules for targets named simple35
+
+# Build rule for target.
+simple35: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple35
+.PHONY : simple35
+
+# fast build rule for target.
+simple35/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple35.dir/build.make CMakeFiles/simple35.dir/build
+.PHONY : simple35/fast
+
+#=============================================================================
 # Target rules for targets named simple1
 
 # Build rule for target.
@@ -362,6 +388,19 @@ simple21: cmake_check_build_system
 simple21/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple21.dir/build.make CMakeFiles/simple21.dir/build
 .PHONY : simple21/fast
+
+#=============================================================================
+# Target rules for targets named simple34
+
+# Build rule for target.
+simple34: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple34
+.PHONY : simple34
+
+# fast build rule for target.
+simple34/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple34.dir/build.make CMakeFiles/simple34.dir/build
+.PHONY : simple34/fast
 
 #=============================================================================
 # Target rules for targets named simple25
@@ -995,6 +1034,87 @@ Sessions/ss3_loop/simple33.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple33.dir/build.make CMakeFiles/simple33.dir/Sessions/ss3_loop/simple33.c.s
 .PHONY : Sessions/ss3_loop/simple33.c.s
 
+Sessions/ss3_loop/simple34.o: Sessions/ss3_loop/simple34.c.o
+
+.PHONY : Sessions/ss3_loop/simple34.o
+
+# target to build an object file
+Sessions/ss3_loop/simple34.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple34.dir/build.make CMakeFiles/simple34.dir/Sessions/ss3_loop/simple34.c.o
+.PHONY : Sessions/ss3_loop/simple34.c.o
+
+Sessions/ss3_loop/simple34.i: Sessions/ss3_loop/simple34.c.i
+
+.PHONY : Sessions/ss3_loop/simple34.i
+
+# target to preprocess a source file
+Sessions/ss3_loop/simple34.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple34.dir/build.make CMakeFiles/simple34.dir/Sessions/ss3_loop/simple34.c.i
+.PHONY : Sessions/ss3_loop/simple34.c.i
+
+Sessions/ss3_loop/simple34.s: Sessions/ss3_loop/simple34.c.s
+
+.PHONY : Sessions/ss3_loop/simple34.s
+
+# target to generate assembly for a file
+Sessions/ss3_loop/simple34.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple34.dir/build.make CMakeFiles/simple34.dir/Sessions/ss3_loop/simple34.c.s
+.PHONY : Sessions/ss3_loop/simple34.c.s
+
+Sessions/ss3_loop/simple35.o: Sessions/ss3_loop/simple35.c.o
+
+.PHONY : Sessions/ss3_loop/simple35.o
+
+# target to build an object file
+Sessions/ss3_loop/simple35.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple35.dir/build.make CMakeFiles/simple35.dir/Sessions/ss3_loop/simple35.c.o
+.PHONY : Sessions/ss3_loop/simple35.c.o
+
+Sessions/ss3_loop/simple35.i: Sessions/ss3_loop/simple35.c.i
+
+.PHONY : Sessions/ss3_loop/simple35.i
+
+# target to preprocess a source file
+Sessions/ss3_loop/simple35.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple35.dir/build.make CMakeFiles/simple35.dir/Sessions/ss3_loop/simple35.c.i
+.PHONY : Sessions/ss3_loop/simple35.c.i
+
+Sessions/ss3_loop/simple35.s: Sessions/ss3_loop/simple35.c.s
+
+.PHONY : Sessions/ss3_loop/simple35.s
+
+# target to generate assembly for a file
+Sessions/ss3_loop/simple35.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple35.dir/build.make CMakeFiles/simple35.dir/Sessions/ss3_loop/simple35.c.s
+.PHONY : Sessions/ss3_loop/simple35.c.s
+
+Sessions/ss3_loop/simple36.o: Sessions/ss3_loop/simple36.c.o
+
+.PHONY : Sessions/ss3_loop/simple36.o
+
+# target to build an object file
+Sessions/ss3_loop/simple36.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple36.dir/build.make CMakeFiles/simple36.dir/Sessions/ss3_loop/simple36.c.o
+.PHONY : Sessions/ss3_loop/simple36.c.o
+
+Sessions/ss3_loop/simple36.i: Sessions/ss3_loop/simple36.c.i
+
+.PHONY : Sessions/ss3_loop/simple36.i
+
+# target to preprocess a source file
+Sessions/ss3_loop/simple36.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple36.dir/build.make CMakeFiles/simple36.dir/Sessions/ss3_loop/simple36.c.i
+.PHONY : Sessions/ss3_loop/simple36.c.i
+
+Sessions/ss3_loop/simple36.s: Sessions/ss3_loop/simple36.c.s
+
+.PHONY : Sessions/ss3_loop/simple36.s
+
+# target to generate assembly for a file
+Sessions/ss3_loop/simple36.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple36.dir/build.make CMakeFiles/simple36.dir/Sessions/ss3_loop/simple36.c.s
+.PHONY : Sessions/ss3_loop/simple36.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -1078,6 +1198,9 @@ help:
 	@echo "... simple31"
 	@echo "... simple32"
 	@echo "... simple33"
+	@echo "... simple34"
+	@echo "... simple35"
+	@echo "... simple36"
 	@echo "... simple4"
 	@echo "... test"
 	@echo "... Homeworks/homework_1st/example1.o"
@@ -1143,6 +1266,15 @@ help:
 	@echo "... Sessions/ss3_loop/simple33.o"
 	@echo "... Sessions/ss3_loop/simple33.i"
 	@echo "... Sessions/ss3_loop/simple33.s"
+	@echo "... Sessions/ss3_loop/simple34.o"
+	@echo "... Sessions/ss3_loop/simple34.i"
+	@echo "... Sessions/ss3_loop/simple34.s"
+	@echo "... Sessions/ss3_loop/simple35.o"
+	@echo "... Sessions/ss3_loop/simple35.i"
+	@echo "... Sessions/ss3_loop/simple35.s"
+	@echo "... Sessions/ss3_loop/simple36.o"
+	@echo "... Sessions/ss3_loop/simple36.i"
+	@echo "... Sessions/ss3_loop/simple36.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

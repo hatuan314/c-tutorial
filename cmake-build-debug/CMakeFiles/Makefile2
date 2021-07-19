@@ -75,6 +75,7 @@ CMAKE_BINARY_DIR = /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug
 all: CMakeFiles/simple33.dir/all
 all: CMakeFiles/simple32.dir/all
 all: CMakeFiles/simple31.dir/all
+all: CMakeFiles/simple36.dir/all
 all: CMakeFiles/homework_review.dir/all
 all: CMakeFiles/simple24.dir/all
 all: CMakeFiles/example7.dir/all
@@ -88,8 +89,10 @@ all: CMakeFiles/example1.dir/all
 all: CMakeFiles/c_tutorial.dir/all
 all: CMakeFiles/simple2.dir/all
 all: CMakeFiles/simple3.dir/all
+all: CMakeFiles/simple35.dir/all
 all: CMakeFiles/simple1.dir/all
 all: CMakeFiles/simple21.dir/all
+all: CMakeFiles/simple34.dir/all
 all: CMakeFiles/simple25.dir/all
 all: CMakeFiles/example2.dir/all
 all: CMakeFiles/simple22.dir/all
@@ -107,6 +110,7 @@ preinstall:
 clean: CMakeFiles/simple33.dir/clean
 clean: CMakeFiles/simple32.dir/clean
 clean: CMakeFiles/simple31.dir/clean
+clean: CMakeFiles/simple36.dir/clean
 clean: CMakeFiles/homework_review.dir/clean
 clean: CMakeFiles/simple24.dir/clean
 clean: CMakeFiles/example7.dir/clean
@@ -120,8 +124,10 @@ clean: CMakeFiles/example1.dir/clean
 clean: CMakeFiles/c_tutorial.dir/clean
 clean: CMakeFiles/simple2.dir/clean
 clean: CMakeFiles/simple3.dir/clean
+clean: CMakeFiles/simple35.dir/clean
 clean: CMakeFiles/simple1.dir/clean
 clean: CMakeFiles/simple21.dir/clean
+clean: CMakeFiles/simple34.dir/clean
 clean: CMakeFiles/simple25.dir/clean
 clean: CMakeFiles/example2.dir/clean
 clean: CMakeFiles/simple22.dir/clean
@@ -210,6 +216,33 @@ simple31: CMakeFiles/simple31.dir/rule
 CMakeFiles/simple31.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple31.dir/build.make CMakeFiles/simple31.dir/clean
 .PHONY : CMakeFiles/simple31.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simple36.dir
+
+# All Build rule for target.
+CMakeFiles/simple36.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple36.dir/build.make CMakeFiles/simple36.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple36.dir/build.make CMakeFiles/simple36.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=47,48 "Built target simple36"
+.PHONY : CMakeFiles/simple36.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simple36.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple36.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/simple36.dir/rule
+
+# Convenience name for target.
+simple36: CMakeFiles/simple36.dir/rule
+
+.PHONY : simple36
+
+# clean rule for target.
+CMakeFiles/simple36.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple36.dir/build.make CMakeFiles/simple36.dir/clean
+.PHONY : CMakeFiles/simple36.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/homework_review.dir
@@ -407,7 +440,7 @@ CMakeFiles/simple23.dir/clean:
 CMakeFiles/simple4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple4.dir/build.make CMakeFiles/simple4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple4.dir/build.make CMakeFiles/simple4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target simple4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=49,50 "Built target simple4"
 .PHONY : CMakeFiles/simple4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -563,6 +596,33 @@ CMakeFiles/simple3.dir/clean:
 .PHONY : CMakeFiles/simple3.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/simple35.dir
+
+# All Build rule for target.
+CMakeFiles/simple35.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple35.dir/build.make CMakeFiles/simple35.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple35.dir/build.make CMakeFiles/simple35.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target simple35"
+.PHONY : CMakeFiles/simple35.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simple35.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple35.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/simple35.dir/rule
+
+# Convenience name for target.
+simple35: CMakeFiles/simple35.dir/rule
+
+.PHONY : simple35
+
+# clean rule for target.
+CMakeFiles/simple35.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple35.dir/build.make CMakeFiles/simple35.dir/clean
+.PHONY : CMakeFiles/simple35.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/simple1.dir
 
 # All Build rule for target.
@@ -615,6 +675,33 @@ simple21: CMakeFiles/simple21.dir/rule
 CMakeFiles/simple21.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple21.dir/build.make CMakeFiles/simple21.dir/clean
 .PHONY : CMakeFiles/simple21.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simple34.dir
+
+# All Build rule for target.
+CMakeFiles/simple34.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple34.dir/build.make CMakeFiles/simple34.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple34.dir/build.make CMakeFiles/simple34.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=43,44 "Built target simple34"
+.PHONY : CMakeFiles/simple34.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simple34.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple34.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/simple34.dir/rule
+
+# Convenience name for target.
+simple34: CMakeFiles/simple34.dir/rule
+
+.PHONY : simple34
+
+# clean rule for target.
+CMakeFiles/simple34.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple34.dir/build.make CMakeFiles/simple34.dir/clean
+.PHONY : CMakeFiles/simple34.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/simple25.dir
@@ -731,7 +818,7 @@ CMakeFiles/example8.dir/clean:
 CMakeFiles/test.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Build rule for subdir invocation for target.
