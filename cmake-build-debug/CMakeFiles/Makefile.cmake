@@ -45,6 +45,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/simple53.dir/DependInfo.cmake"
+  "CMakeFiles/simple51.dir/DependInfo.cmake"
   "CMakeFiles/example31.dir/DependInfo.cmake"
   "CMakeFiles/example34.dir/DependInfo.cmake"
   "CMakeFiles/example32.dir/DependInfo.cmake"
@@ -84,6 +86,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/sample41.dir/DependInfo.cmake"
   "CMakeFiles/example26.dir/DependInfo.cmake"
   "CMakeFiles/simple22.dir/DependInfo.cmake"
+  "CMakeFiles/simple52.dir/DependInfo.cmake"
   "CMakeFiles/example8.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
   )

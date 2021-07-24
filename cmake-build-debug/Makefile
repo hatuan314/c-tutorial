@@ -130,6 +130,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named simple53
+
+# Build rule for target.
+simple53: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple53
+.PHONY : simple53
+
+# fast build rule for target.
+simple53/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/build
+.PHONY : simple53/fast
+
+#=============================================================================
+# Target rules for targets named simple51
+
+# Build rule for target.
+simple51: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple51
+.PHONY : simple51
+
+# fast build rule for target.
+simple51/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/build
+.PHONY : simple51/fast
+
+#=============================================================================
 # Target rules for targets named example31
 
 # Build rule for target.
@@ -635,6 +661,19 @@ simple22: cmake_check_build_system
 simple22/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple22.dir/build.make CMakeFiles/simple22.dir/build
 .PHONY : simple22/fast
+
+#=============================================================================
+# Target rules for targets named simple52
+
+# Build rule for target.
+simple52: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple52
+.PHONY : simple52
+
+# fast build rule for target.
+simple52/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/build
+.PHONY : simple52/fast
 
 #=============================================================================
 # Target rules for targets named example8
@@ -1715,6 +1754,87 @@ Sessions/ss4_function/simple44.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple44.dir/build.make CMakeFiles/simple44.dir/Sessions/ss4_function/simple44.c.s
 .PHONY : Sessions/ss4_function/simple44.c.s
 
+Sessions/ss5_array_and_string/simple51.o: Sessions/ss5_array_and_string/simple51.c.o
+
+.PHONY : Sessions/ss5_array_and_string/simple51.o
+
+# target to build an object file
+Sessions/ss5_array_and_string/simple51.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.o
+.PHONY : Sessions/ss5_array_and_string/simple51.c.o
+
+Sessions/ss5_array_and_string/simple51.i: Sessions/ss5_array_and_string/simple51.c.i
+
+.PHONY : Sessions/ss5_array_and_string/simple51.i
+
+# target to preprocess a source file
+Sessions/ss5_array_and_string/simple51.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.i
+.PHONY : Sessions/ss5_array_and_string/simple51.c.i
+
+Sessions/ss5_array_and_string/simple51.s: Sessions/ss5_array_and_string/simple51.c.s
+
+.PHONY : Sessions/ss5_array_and_string/simple51.s
+
+# target to generate assembly for a file
+Sessions/ss5_array_and_string/simple51.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.s
+.PHONY : Sessions/ss5_array_and_string/simple51.c.s
+
+Sessions/ss5_array_and_string/simple52.o: Sessions/ss5_array_and_string/simple52.c.o
+
+.PHONY : Sessions/ss5_array_and_string/simple52.o
+
+# target to build an object file
+Sessions/ss5_array_and_string/simple52.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/Sessions/ss5_array_and_string/simple52.c.o
+.PHONY : Sessions/ss5_array_and_string/simple52.c.o
+
+Sessions/ss5_array_and_string/simple52.i: Sessions/ss5_array_and_string/simple52.c.i
+
+.PHONY : Sessions/ss5_array_and_string/simple52.i
+
+# target to preprocess a source file
+Sessions/ss5_array_and_string/simple52.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/Sessions/ss5_array_and_string/simple52.c.i
+.PHONY : Sessions/ss5_array_and_string/simple52.c.i
+
+Sessions/ss5_array_and_string/simple52.s: Sessions/ss5_array_and_string/simple52.c.s
+
+.PHONY : Sessions/ss5_array_and_string/simple52.s
+
+# target to generate assembly for a file
+Sessions/ss5_array_and_string/simple52.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/Sessions/ss5_array_and_string/simple52.c.s
+.PHONY : Sessions/ss5_array_and_string/simple52.c.s
+
+Sessions/ss5_array_and_string/simple53.o: Sessions/ss5_array_and_string/simple53.c.o
+
+.PHONY : Sessions/ss5_array_and_string/simple53.o
+
+# target to build an object file
+Sessions/ss5_array_and_string/simple53.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/Sessions/ss5_array_and_string/simple53.c.o
+.PHONY : Sessions/ss5_array_and_string/simple53.c.o
+
+Sessions/ss5_array_and_string/simple53.i: Sessions/ss5_array_and_string/simple53.c.i
+
+.PHONY : Sessions/ss5_array_and_string/simple53.i
+
+# target to preprocess a source file
+Sessions/ss5_array_and_string/simple53.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/Sessions/ss5_array_and_string/simple53.c.i
+.PHONY : Sessions/ss5_array_and_string/simple53.c.i
+
+Sessions/ss5_array_and_string/simple53.s: Sessions/ss5_array_and_string/simple53.c.s
+
+.PHONY : Sessions/ss5_array_and_string/simple53.s
+
+# target to generate assembly for a file
+Sessions/ss5_array_and_string/simple53.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/Sessions/ss5_array_and_string/simple53.c.s
+.PHONY : Sessions/ss5_array_and_string/simple53.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -1817,6 +1937,9 @@ help:
 	@echo "... simple42"
 	@echo "... simple43"
 	@echo "... simple44"
+	@echo "... simple51"
+	@echo "... simple52"
+	@echo "... simple53"
 	@echo "... test"
 	@echo "... Homeworks/homework_1st/example1.o"
 	@echo "... Homeworks/homework_1st/example1.i"
@@ -1935,6 +2058,15 @@ help:
 	@echo "... Sessions/ss4_function/simple44.o"
 	@echo "... Sessions/ss4_function/simple44.i"
 	@echo "... Sessions/ss4_function/simple44.s"
+	@echo "... Sessions/ss5_array_and_string/simple51.o"
+	@echo "... Sessions/ss5_array_and_string/simple51.i"
+	@echo "... Sessions/ss5_array_and_string/simple51.s"
+	@echo "... Sessions/ss5_array_and_string/simple52.o"
+	@echo "... Sessions/ss5_array_and_string/simple52.i"
+	@echo "... Sessions/ss5_array_and_string/simple52.s"
+	@echo "... Sessions/ss5_array_and_string/simple53.o"
+	@echo "... Sessions/ss5_array_and_string/simple53.i"
+	@echo "... Sessions/ss5_array_and_string/simple53.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

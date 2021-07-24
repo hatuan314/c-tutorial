@@ -1,4 +1,6 @@
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple53.dir
+/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple51.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/example31.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/example34.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/example32.dir
@@ -39,5 +41,6 @@
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/sample41.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/example26.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple22.dir
+/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple52.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/example8.dir
 /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/test.dir
