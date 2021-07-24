@@ -4,11 +4,22 @@
 
 float pi = 3.14;    // Biến toàn cục
 
+void funcB(int radius) {
+    pi;
+}
+
+void funcA() {
+    int a;
+}
+
 int main() {
+
+    printf("pi = %d\n", pi);
     float radius;   // Biến cục bộ
     printf("Nhap vao ban kinh duong tron:\t");
     scanf("%f", &radius);
     printf("Dien tich hinh tron:\t%.2f\n", 2 * pi * radius);
+    funcA();
     return 0;
 }
 

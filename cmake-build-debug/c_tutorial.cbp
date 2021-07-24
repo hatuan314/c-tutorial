@@ -27,6 +27,272 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="example31">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example31" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example31"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example31/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example31" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example31/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example34">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example34" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example34"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example34/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example34" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example34/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example32">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example32"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example32/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example32" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example32/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple43">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/simple43" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple43"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple43/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/simple43" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple43/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple42">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/simple42" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple42"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple42/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/simple42" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple42/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example28">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example28" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example28"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example28/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example28" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example28/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example29">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example29" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example29"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example29/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example29" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example29/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="example21">
 				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example21" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
@@ -531,6 +797,44 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="example27">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example27" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example27"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example27/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example27" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example27/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="example4">
 				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example4" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
@@ -678,6 +982,82 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_tutorial/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example33">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example33" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example33"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example33/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example33" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example33/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple44">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/simple44" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple44"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simple44/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/simple44" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 simple44/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1025,6 +1405,82 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="sample41">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/sample41" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 sample41"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sample41/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/sample41" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 sample41/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example26">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example26"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="example26/fast">
+				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/example26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 example26/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="simple22">
 				<Option output="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/simple22" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug"/>
@@ -1176,6 +1632,30 @@
 		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Homeworks/homework_2nd/example25.c">
 			<Option target="example25"/>
 		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Homeworks/homework_2nd/example26.c">
+			<Option target="example26"/>
+		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Homeworks/homework_2nd/example27.c">
+			<Option target="example27"/>
+		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Homeworks/homework_2nd/example28.c">
+			<Option target="example28"/>
+		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Homeworks/homework_2nd/example29.c">
+			<Option target="example29"/>
+		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Homeworks/homework_3st/example31.c">
+			<Option target="example31"/>
+		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Homeworks/homework_3st/example32.c">
+			<Option target="example32"/>
+		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Homeworks/homework_3st/example33.c">
+			<Option target="example33"/>
+		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Homeworks/homework_3st/example34.c">
+			<Option target="example34"/>
+		</Unit>
 		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss1_intro/simple1.c">
 			<Option target="simple1"/>
 		</Unit>
@@ -1220,6 +1700,18 @@
 		</Unit>
 		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss3_loop/simple36.c">
 			<Option target="simple36"/>
+		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss4_function/sample41.c">
+			<Option target="sample41"/>
+		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss4_function/simple42.c">
+			<Option target="simple42"/>
+		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss4_function/simple43.c">
+			<Option target="simple43"/>
+		</Unit>
+		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss4_function/simple44.c">
+			<Option target="simple44"/>
 		</Unit>
 		<Unit filename="/Users/tuanha/Work/KIT/C_lang/c-tutorial/main.c">
 			<Option target="c_tutorial"/>
