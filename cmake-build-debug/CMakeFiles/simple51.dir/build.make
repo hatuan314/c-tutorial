@@ -76,27 +76,27 @@ include CMakeFiles/simple51.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/simple51.dir/flags.make
 
-CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.o: CMakeFiles/simple51.dir/flags.make
-CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.o: ../Sessions/ss5_array_and_string/simple51.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.o -c /Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss5_array_and_string/simple51.c
+CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.o: CMakeFiles/simple51.dir/flags.make
+CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.o: ../Sessions/ss5_array/simple51.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.o -c /Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss5_array/simple51.c
 
-CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss5_array_and_string/simple51.c > CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.i
+CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss5_array/simple51.c > CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.i
 
-CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss5_array_and_string/simple51.c -o CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.s
+CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss5_array/simple51.c -o CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.s
 
 # Object files for target simple51
 simple51_OBJECTS = \
-"CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.o"
+"CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.o"
 
 # External object files for target simple51
 simple51_EXTERNAL_OBJECTS =
 
-simple51: CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.o
+simple51: CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.o
 simple51: CMakeFiles/simple51.dir/build.make
 simple51: CMakeFiles/simple51.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable simple51"

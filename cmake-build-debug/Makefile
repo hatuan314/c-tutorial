@@ -75,17 +75,6 @@ CMAKE_BINARY_DIR = /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -96,6 +85,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -128,6 +128,58 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named simple22
+
+# Build rule for target.
+simple22: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple22
+.PHONY : simple22
+
+# fast build rule for target.
+simple22/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple22.dir/build.make CMakeFiles/simple22.dir/build
+.PHONY : simple22/fast
+
+#=============================================================================
+# Target rules for targets named simple63
+
+# Build rule for target.
+simple63: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple63
+.PHONY : simple63
+
+# fast build rule for target.
+simple63/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple63.dir/build.make CMakeFiles/simple63.dir/build
+.PHONY : simple63/fast
+
+#=============================================================================
+# Target rules for targets named c_tutorial
+
+# Build rule for target.
+c_tutorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_tutorial
+.PHONY : c_tutorial
+
+# fast build rule for target.
+c_tutorial/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_tutorial.dir/build.make CMakeFiles/c_tutorial.dir/build
+.PHONY : c_tutorial/fast
+
+#=============================================================================
+# Target rules for targets named simple61
+
+# Build rule for target.
+simple61: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple61
+.PHONY : simple61
+
+# fast build rule for target.
+simple61/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple61.dir/build.make CMakeFiles/simple61.dir/build
+.PHONY : simple61/fast
 
 #=============================================================================
 # Target rules for targets named simple53
@@ -182,6 +234,19 @@ example34/fast:
 .PHONY : example34/fast
 
 #=============================================================================
+# Target rules for targets named example2
+
+# Build rule for target.
+example2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example2
+.PHONY : example2
+
+# fast build rule for target.
+example2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example2.dir/build.make CMakeFiles/example2.dir/build
+.PHONY : example2/fast
+
+#=============================================================================
 # Target rules for targets named example32
 
 # Build rule for target.
@@ -193,6 +258,19 @@ example32: cmake_check_build_system
 example32/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example32.dir/build.make CMakeFiles/example32.dir/build
 .PHONY : example32/fast
+
+#=============================================================================
+# Target rules for targets named example27
+
+# Build rule for target.
+example27: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example27
+.PHONY : example27
+
+# fast build rule for target.
+example27/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example27.dir/build.make CMakeFiles/example27.dir/build
+.PHONY : example27/fast
 
 #=============================================================================
 # Target rules for targets named simple43
@@ -247,6 +325,19 @@ example29/fast:
 .PHONY : example29/fast
 
 #=============================================================================
+# Target rules for targets named example22
+
+# Build rule for target.
+example22: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example22
+.PHONY : example22
+
+# fast build rule for target.
+example22/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example22.dir/build.make CMakeFiles/example22.dir/build
+.PHONY : example22/fast
+
+#=============================================================================
 # Target rules for targets named example21
 
 # Build rule for target.
@@ -258,6 +349,19 @@ example21: cmake_check_build_system
 example21/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example21.dir/build.make CMakeFiles/example21.dir/build
 .PHONY : example21/fast
+
+#=============================================================================
+# Target rules for targets named homework_review
+
+# Build rule for target.
+homework_review: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 homework_review
+.PHONY : homework_review
+
+# fast build rule for target.
+homework_review/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/homework_review.dir/build.make CMakeFiles/homework_review.dir/build
+.PHONY : homework_review/fast
 
 #=============================================================================
 # Target rules for targets named simple33
@@ -273,6 +377,19 @@ simple33/fast:
 .PHONY : simple33/fast
 
 #=============================================================================
+# Target rules for targets named simple62
+
+# Build rule for target.
+simple62: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple62
+.PHONY : simple62
+
+# fast build rule for target.
+simple62/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple62.dir/build.make CMakeFiles/simple62.dir/build
+.PHONY : simple62/fast
+
+#=============================================================================
 # Target rules for targets named simple32
 
 # Build rule for target.
@@ -284,6 +401,19 @@ simple32: cmake_check_build_system
 simple32/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple32.dir/build.make CMakeFiles/simple32.dir/build
 .PHONY : simple32/fast
+
+#=============================================================================
+# Target rules for targets named example33
+
+# Build rule for target.
+example33: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example33
+.PHONY : example33
+
+# fast build rule for target.
+example33/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/example33.dir/build.make CMakeFiles/example33.dir/build
+.PHONY : example33/fast
 
 #=============================================================================
 # Target rules for targets named simple31
@@ -310,19 +440,6 @@ simple36: cmake_check_build_system
 simple36/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple36.dir/build.make CMakeFiles/simple36.dir/build
 .PHONY : simple36/fast
-
-#=============================================================================
-# Target rules for targets named homework_review
-
-# Build rule for target.
-homework_review: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 homework_review
-.PHONY : homework_review
-
-# fast build rule for target.
-homework_review/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/homework_review.dir/build.make CMakeFiles/homework_review.dir/build
-.PHONY : homework_review/fast
 
 #=============================================================================
 # Target rules for targets named simple24
@@ -416,19 +533,6 @@ simple4/fast:
 .PHONY : simple4/fast
 
 #=============================================================================
-# Target rules for targets named example27
-
-# Build rule for target.
-example27: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example27
-.PHONY : example27
-
-# fast build rule for target.
-example27/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example27.dir/build.make CMakeFiles/example27.dir/build
-.PHONY : example27/fast
-
-#=============================================================================
 # Target rules for targets named example4
 
 # Build rule for target.
@@ -468,32 +572,6 @@ example25/fast:
 .PHONY : example25/fast
 
 #=============================================================================
-# Target rules for targets named c_tutorial
-
-# Build rule for target.
-c_tutorial: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 c_tutorial
-.PHONY : c_tutorial
-
-# fast build rule for target.
-c_tutorial/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/c_tutorial.dir/build.make CMakeFiles/c_tutorial.dir/build
-.PHONY : c_tutorial/fast
-
-#=============================================================================
-# Target rules for targets named example33
-
-# Build rule for target.
-example33: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example33
-.PHONY : example33
-
-# fast build rule for target.
-example33/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example33.dir/build.make CMakeFiles/example33.dir/build
-.PHONY : example33/fast
-
-#=============================================================================
 # Target rules for targets named simple44
 
 # Build rule for target.
@@ -507,17 +585,17 @@ simple44/fast:
 .PHONY : simple44/fast
 
 #=============================================================================
-# Target rules for targets named example22
+# Target rules for targets named simple21
 
 # Build rule for target.
-example22: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example22
-.PHONY : example22
+simple21: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple21
+.PHONY : simple21
 
 # fast build rule for target.
-example22/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example22.dir/build.make CMakeFiles/example22.dir/build
-.PHONY : example22/fast
+simple21/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple21.dir/build.make CMakeFiles/simple21.dir/build
+.PHONY : simple21/fast
 
 #=============================================================================
 # Target rules for targets named simple2
@@ -546,6 +624,19 @@ simple3/fast:
 .PHONY : simple3/fast
 
 #=============================================================================
+# Target rules for targets named simple25
+
+# Build rule for target.
+simple25: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple25
+.PHONY : simple25
+
+# fast build rule for target.
+simple25/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple25.dir/build.make CMakeFiles/simple25.dir/build
+.PHONY : simple25/fast
+
+#=============================================================================
 # Target rules for targets named simple35
 
 # Build rule for target.
@@ -572,19 +663,6 @@ simple1/fast:
 .PHONY : simple1/fast
 
 #=============================================================================
-# Target rules for targets named simple21
-
-# Build rule for target.
-simple21: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple21
-.PHONY : simple21
-
-# fast build rule for target.
-simple21/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple21.dir/build.make CMakeFiles/simple21.dir/build
-.PHONY : simple21/fast
-
-#=============================================================================
 # Target rules for targets named simple34
 
 # Build rule for target.
@@ -596,32 +674,6 @@ simple34: cmake_check_build_system
 simple34/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple34.dir/build.make CMakeFiles/simple34.dir/build
 .PHONY : simple34/fast
-
-#=============================================================================
-# Target rules for targets named simple25
-
-# Build rule for target.
-simple25: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple25
-.PHONY : simple25
-
-# fast build rule for target.
-simple25/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple25.dir/build.make CMakeFiles/simple25.dir/build
-.PHONY : simple25/fast
-
-#=============================================================================
-# Target rules for targets named example2
-
-# Build rule for target.
-example2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 example2
-.PHONY : example2
-
-# fast build rule for target.
-example2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/example2.dir/build.make CMakeFiles/example2.dir/build
-.PHONY : example2/fast
 
 #=============================================================================
 # Target rules for targets named sample41
@@ -648,19 +700,6 @@ example26: cmake_check_build_system
 example26/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example26.dir/build.make CMakeFiles/example26.dir/build
 .PHONY : example26/fast
-
-#=============================================================================
-# Target rules for targets named simple22
-
-# Build rule for target.
-simple22: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple22
-.PHONY : simple22
-
-# fast build rule for target.
-simple22/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple22.dir/build.make CMakeFiles/simple22.dir/build
-.PHONY : simple22/fast
 
 #=============================================================================
 # Target rules for targets named simple52
@@ -1754,86 +1793,167 @@ Sessions/ss4_function/simple44.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple44.dir/build.make CMakeFiles/simple44.dir/Sessions/ss4_function/simple44.c.s
 .PHONY : Sessions/ss4_function/simple44.c.s
 
-Sessions/ss5_array_and_string/simple51.o: Sessions/ss5_array_and_string/simple51.c.o
+Sessions/ss5_array/simple51.o: Sessions/ss5_array/simple51.c.o
 
-.PHONY : Sessions/ss5_array_and_string/simple51.o
-
-# target to build an object file
-Sessions/ss5_array_and_string/simple51.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.o
-.PHONY : Sessions/ss5_array_and_string/simple51.c.o
-
-Sessions/ss5_array_and_string/simple51.i: Sessions/ss5_array_and_string/simple51.c.i
-
-.PHONY : Sessions/ss5_array_and_string/simple51.i
-
-# target to preprocess a source file
-Sessions/ss5_array_and_string/simple51.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.i
-.PHONY : Sessions/ss5_array_and_string/simple51.c.i
-
-Sessions/ss5_array_and_string/simple51.s: Sessions/ss5_array_and_string/simple51.c.s
-
-.PHONY : Sessions/ss5_array_and_string/simple51.s
-
-# target to generate assembly for a file
-Sessions/ss5_array_and_string/simple51.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/Sessions/ss5_array_and_string/simple51.c.s
-.PHONY : Sessions/ss5_array_and_string/simple51.c.s
-
-Sessions/ss5_array_and_string/simple52.o: Sessions/ss5_array_and_string/simple52.c.o
-
-.PHONY : Sessions/ss5_array_and_string/simple52.o
+.PHONY : Sessions/ss5_array/simple51.o
 
 # target to build an object file
-Sessions/ss5_array_and_string/simple52.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/Sessions/ss5_array_and_string/simple52.c.o
-.PHONY : Sessions/ss5_array_and_string/simple52.c.o
+Sessions/ss5_array/simple51.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.o
+.PHONY : Sessions/ss5_array/simple51.c.o
 
-Sessions/ss5_array_and_string/simple52.i: Sessions/ss5_array_and_string/simple52.c.i
+Sessions/ss5_array/simple51.i: Sessions/ss5_array/simple51.c.i
 
-.PHONY : Sessions/ss5_array_and_string/simple52.i
+.PHONY : Sessions/ss5_array/simple51.i
 
 # target to preprocess a source file
-Sessions/ss5_array_and_string/simple52.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/Sessions/ss5_array_and_string/simple52.c.i
-.PHONY : Sessions/ss5_array_and_string/simple52.c.i
+Sessions/ss5_array/simple51.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.i
+.PHONY : Sessions/ss5_array/simple51.c.i
 
-Sessions/ss5_array_and_string/simple52.s: Sessions/ss5_array_and_string/simple52.c.s
+Sessions/ss5_array/simple51.s: Sessions/ss5_array/simple51.c.s
 
-.PHONY : Sessions/ss5_array_and_string/simple52.s
+.PHONY : Sessions/ss5_array/simple51.s
 
 # target to generate assembly for a file
-Sessions/ss5_array_and_string/simple52.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/Sessions/ss5_array_and_string/simple52.c.s
-.PHONY : Sessions/ss5_array_and_string/simple52.c.s
+Sessions/ss5_array/simple51.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/Sessions/ss5_array/simple51.c.s
+.PHONY : Sessions/ss5_array/simple51.c.s
 
-Sessions/ss5_array_and_string/simple53.o: Sessions/ss5_array_and_string/simple53.c.o
+Sessions/ss5_array/simple52.o: Sessions/ss5_array/simple52.c.o
 
-.PHONY : Sessions/ss5_array_and_string/simple53.o
+.PHONY : Sessions/ss5_array/simple52.o
 
 # target to build an object file
-Sessions/ss5_array_and_string/simple53.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/Sessions/ss5_array_and_string/simple53.c.o
-.PHONY : Sessions/ss5_array_and_string/simple53.c.o
+Sessions/ss5_array/simple52.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/Sessions/ss5_array/simple52.c.o
+.PHONY : Sessions/ss5_array/simple52.c.o
 
-Sessions/ss5_array_and_string/simple53.i: Sessions/ss5_array_and_string/simple53.c.i
+Sessions/ss5_array/simple52.i: Sessions/ss5_array/simple52.c.i
 
-.PHONY : Sessions/ss5_array_and_string/simple53.i
+.PHONY : Sessions/ss5_array/simple52.i
 
 # target to preprocess a source file
-Sessions/ss5_array_and_string/simple53.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/Sessions/ss5_array_and_string/simple53.c.i
-.PHONY : Sessions/ss5_array_and_string/simple53.c.i
+Sessions/ss5_array/simple52.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/Sessions/ss5_array/simple52.c.i
+.PHONY : Sessions/ss5_array/simple52.c.i
 
-Sessions/ss5_array_and_string/simple53.s: Sessions/ss5_array_and_string/simple53.c.s
+Sessions/ss5_array/simple52.s: Sessions/ss5_array/simple52.c.s
 
-.PHONY : Sessions/ss5_array_and_string/simple53.s
+.PHONY : Sessions/ss5_array/simple52.s
 
 # target to generate assembly for a file
-Sessions/ss5_array_and_string/simple53.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/Sessions/ss5_array_and_string/simple53.c.s
-.PHONY : Sessions/ss5_array_and_string/simple53.c.s
+Sessions/ss5_array/simple52.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/Sessions/ss5_array/simple52.c.s
+.PHONY : Sessions/ss5_array/simple52.c.s
+
+Sessions/ss5_array/simple53.o: Sessions/ss5_array/simple53.c.o
+
+.PHONY : Sessions/ss5_array/simple53.o
+
+# target to build an object file
+Sessions/ss5_array/simple53.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/Sessions/ss5_array/simple53.c.o
+.PHONY : Sessions/ss5_array/simple53.c.o
+
+Sessions/ss5_array/simple53.i: Sessions/ss5_array/simple53.c.i
+
+.PHONY : Sessions/ss5_array/simple53.i
+
+# target to preprocess a source file
+Sessions/ss5_array/simple53.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/Sessions/ss5_array/simple53.c.i
+.PHONY : Sessions/ss5_array/simple53.c.i
+
+Sessions/ss5_array/simple53.s: Sessions/ss5_array/simple53.c.s
+
+.PHONY : Sessions/ss5_array/simple53.s
+
+# target to generate assembly for a file
+Sessions/ss5_array/simple53.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/Sessions/ss5_array/simple53.c.s
+.PHONY : Sessions/ss5_array/simple53.c.s
+
+Sessions/ss6_string/simple61.o: Sessions/ss6_string/simple61.c.o
+
+.PHONY : Sessions/ss6_string/simple61.o
+
+# target to build an object file
+Sessions/ss6_string/simple61.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple61.dir/build.make CMakeFiles/simple61.dir/Sessions/ss6_string/simple61.c.o
+.PHONY : Sessions/ss6_string/simple61.c.o
+
+Sessions/ss6_string/simple61.i: Sessions/ss6_string/simple61.c.i
+
+.PHONY : Sessions/ss6_string/simple61.i
+
+# target to preprocess a source file
+Sessions/ss6_string/simple61.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple61.dir/build.make CMakeFiles/simple61.dir/Sessions/ss6_string/simple61.c.i
+.PHONY : Sessions/ss6_string/simple61.c.i
+
+Sessions/ss6_string/simple61.s: Sessions/ss6_string/simple61.c.s
+
+.PHONY : Sessions/ss6_string/simple61.s
+
+# target to generate assembly for a file
+Sessions/ss6_string/simple61.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple61.dir/build.make CMakeFiles/simple61.dir/Sessions/ss6_string/simple61.c.s
+.PHONY : Sessions/ss6_string/simple61.c.s
+
+Sessions/ss6_string/simple62.o: Sessions/ss6_string/simple62.c.o
+
+.PHONY : Sessions/ss6_string/simple62.o
+
+# target to build an object file
+Sessions/ss6_string/simple62.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple62.dir/build.make CMakeFiles/simple62.dir/Sessions/ss6_string/simple62.c.o
+.PHONY : Sessions/ss6_string/simple62.c.o
+
+Sessions/ss6_string/simple62.i: Sessions/ss6_string/simple62.c.i
+
+.PHONY : Sessions/ss6_string/simple62.i
+
+# target to preprocess a source file
+Sessions/ss6_string/simple62.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple62.dir/build.make CMakeFiles/simple62.dir/Sessions/ss6_string/simple62.c.i
+.PHONY : Sessions/ss6_string/simple62.c.i
+
+Sessions/ss6_string/simple62.s: Sessions/ss6_string/simple62.c.s
+
+.PHONY : Sessions/ss6_string/simple62.s
+
+# target to generate assembly for a file
+Sessions/ss6_string/simple62.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple62.dir/build.make CMakeFiles/simple62.dir/Sessions/ss6_string/simple62.c.s
+.PHONY : Sessions/ss6_string/simple62.c.s
+
+Sessions/ss6_string/simple63.o: Sessions/ss6_string/simple63.c.o
+
+.PHONY : Sessions/ss6_string/simple63.o
+
+# target to build an object file
+Sessions/ss6_string/simple63.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple63.dir/build.make CMakeFiles/simple63.dir/Sessions/ss6_string/simple63.c.o
+.PHONY : Sessions/ss6_string/simple63.c.o
+
+Sessions/ss6_string/simple63.i: Sessions/ss6_string/simple63.c.i
+
+.PHONY : Sessions/ss6_string/simple63.i
+
+# target to preprocess a source file
+Sessions/ss6_string/simple63.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple63.dir/build.make CMakeFiles/simple63.dir/Sessions/ss6_string/simple63.c.i
+.PHONY : Sessions/ss6_string/simple63.c.i
+
+Sessions/ss6_string/simple63.s: Sessions/ss6_string/simple63.c.s
+
+.PHONY : Sessions/ss6_string/simple63.s
+
+# target to generate assembly for a file
+Sessions/ss6_string/simple63.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple63.dir/build.make CMakeFiles/simple63.dir/Sessions/ss6_string/simple63.c.s
+.PHONY : Sessions/ss6_string/simple63.c.s
 
 main.o: main.c.o
 
@@ -1940,6 +2060,9 @@ help:
 	@echo "... simple51"
 	@echo "... simple52"
 	@echo "... simple53"
+	@echo "... simple61"
+	@echo "... simple62"
+	@echo "... simple63"
 	@echo "... test"
 	@echo "... Homeworks/homework_1st/example1.o"
 	@echo "... Homeworks/homework_1st/example1.i"
@@ -2058,15 +2181,24 @@ help:
 	@echo "... Sessions/ss4_function/simple44.o"
 	@echo "... Sessions/ss4_function/simple44.i"
 	@echo "... Sessions/ss4_function/simple44.s"
-	@echo "... Sessions/ss5_array_and_string/simple51.o"
-	@echo "... Sessions/ss5_array_and_string/simple51.i"
-	@echo "... Sessions/ss5_array_and_string/simple51.s"
-	@echo "... Sessions/ss5_array_and_string/simple52.o"
-	@echo "... Sessions/ss5_array_and_string/simple52.i"
-	@echo "... Sessions/ss5_array_and_string/simple52.s"
-	@echo "... Sessions/ss5_array_and_string/simple53.o"
-	@echo "... Sessions/ss5_array_and_string/simple53.i"
-	@echo "... Sessions/ss5_array_and_string/simple53.s"
+	@echo "... Sessions/ss5_array/simple51.o"
+	@echo "... Sessions/ss5_array/simple51.i"
+	@echo "... Sessions/ss5_array/simple51.s"
+	@echo "... Sessions/ss5_array/simple52.o"
+	@echo "... Sessions/ss5_array/simple52.i"
+	@echo "... Sessions/ss5_array/simple52.s"
+	@echo "... Sessions/ss5_array/simple53.o"
+	@echo "... Sessions/ss5_array/simple53.i"
+	@echo "... Sessions/ss5_array/simple53.s"
+	@echo "... Sessions/ss6_string/simple61.o"
+	@echo "... Sessions/ss6_string/simple61.i"
+	@echo "... Sessions/ss6_string/simple61.s"
+	@echo "... Sessions/ss6_string/simple62.o"
+	@echo "... Sessions/ss6_string/simple62.i"
+	@echo "... Sessions/ss6_string/simple62.s"
+	@echo "... Sessions/ss6_string/simple63.o"
+	@echo "... Sessions/ss6_string/simple63.i"
+	@echo "... Sessions/ss6_string/simple63.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

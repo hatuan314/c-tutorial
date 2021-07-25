@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/simple52.dir/Sessions/ss5_array_and_string/simple52.c.o"
+  "CMakeFiles/simple52.dir/Sessions/ss5_array/simple52.c.o"
   "simple52"
   "simple52.pdb"
 )
