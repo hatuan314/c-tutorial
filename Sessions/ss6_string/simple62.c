@@ -49,10 +49,10 @@ int main() {
 //    strcat(firstName, lastName);
 //    printf("Noi 2 chuoi - strcat: %s\n", firstName);
 
-    // strrev()
-    printf("Chuoi dao nguoc - strrev: %s", strrev(name));
-
-    // strlwr
-    printf("Chuoi chu thuong - strlwr: %s", strlwr(name));
+//    // strrev()
+//    printf("Chuoi dao nguoc - strrev: %s", strrev(name));
+//
+//    // strlwr
+//    printf("Chuoi chu thuong - strlwr: %s", strlwr(name));
     return 0;
 }

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss7_pointer/simple73.c
+stdio.h
+/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss7_pointer/stdio.h
+
