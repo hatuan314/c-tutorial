@@ -72,6 +72,7 @@ CMAKE_BINARY_DIR = /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/simple91.dir/all
 all: CMakeFiles/11_struct.dir/all
 all: CMakeFiles/11.dir/all
 all: CMakeFiles/simple75.dir/all
@@ -124,6 +125,7 @@ all: CMakeFiles/example4.dir/all
 all: CMakeFiles/example1.dir/all
 all: CMakeFiles/14.dir/all
 all: CMakeFiles/example25.dir/all
+all: CMakeFiles/simple92.dir/all
 all: CMakeFiles/simple44.dir/all
 all: CMakeFiles/simple21.dir/all
 all: CMakeFiles/simple2.dir/all
@@ -148,6 +150,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/simple91.dir/clean
 clean: CMakeFiles/11_struct.dir/clean
 clean: CMakeFiles/11.dir/clean
 clean: CMakeFiles/simple75.dir/clean
@@ -200,6 +203,7 @@ clean: CMakeFiles/example4.dir/clean
 clean: CMakeFiles/example1.dir/clean
 clean: CMakeFiles/14.dir/clean
 clean: CMakeFiles/example25.dir/clean
+clean: CMakeFiles/simple92.dir/clean
 clean: CMakeFiles/simple44.dir/clean
 clean: CMakeFiles/simple21.dir/clean
 clean: CMakeFiles/simple2.dir/clean
@@ -217,6 +221,33 @@ clean: CMakeFiles/example8.dir/clean
 clean: CMakeFiles/test.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/simple91.dir
+
+# All Build rule for target.
+CMakeFiles/simple91.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple91.dir/build.make CMakeFiles/simple91.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple91.dir/build.make CMakeFiles/simple91.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=95 "Built target simple91"
+.PHONY : CMakeFiles/simple91.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simple91.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple91.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/simple91.dir/rule
+
+# Convenience name for target.
+simple91: CMakeFiles/simple91.dir/rule
+
+.PHONY : simple91
+
+# clean rule for target.
+CMakeFiles/simple91.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple91.dir/build.make CMakeFiles/simple91.dir/clean
+.PHONY : CMakeFiles/simple91.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/11_struct.dir
@@ -279,7 +310,7 @@ CMakeFiles/11.dir/clean:
 CMakeFiles/simple75.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple75.dir/build.make CMakeFiles/simple75.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple75.dir/build.make CMakeFiles/simple75.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=93,94 "Built target simple75"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=90,91 "Built target simple75"
 .PHONY : CMakeFiles/simple75.dir/all
 
 # Build rule for subdir invocation for target.
@@ -306,7 +337,7 @@ CMakeFiles/simple75.dir/clean:
 CMakeFiles/simple74.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple74.dir/build.make CMakeFiles/simple74.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple74.dir/build.make CMakeFiles/simple74.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=92 "Built target simple74"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=89 "Built target simple74"
 .PHONY : CMakeFiles/simple74.dir/all
 
 # Build rule for subdir invocation for target.
@@ -333,7 +364,7 @@ CMakeFiles/simple74.dir/clean:
 CMakeFiles/simple73.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple73.dir/build.make CMakeFiles/simple73.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple73.dir/build.make CMakeFiles/simple73.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=90,91 "Built target simple73"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=87,88 "Built target simple73"
 .PHONY : CMakeFiles/simple73.dir/all
 
 # Build rule for subdir invocation for target.
@@ -387,12 +418,12 @@ CMakeFiles/solonnhattrong2socontro1.dir/clean:
 CMakeFiles/simple71.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple71.dir/build.make CMakeFiles/simple71.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple71.dir/build.make CMakeFiles/simple71.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=87,88 "Built target simple71"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=85 "Built target simple71"
 .PHONY : CMakeFiles/simple71.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple71.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple71.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple71.dir/rule
@@ -414,7 +445,7 @@ CMakeFiles/simple71.dir/clean:
 CMakeFiles/simple82.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple82.dir/build.make CMakeFiles/simple82.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple82.dir/build.make CMakeFiles/simple82.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=96,97 "Built target simple82"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=93,94 "Built target simple82"
 .PHONY : CMakeFiles/simple82.dir/all
 
 # Build rule for subdir invocation for target.
@@ -495,7 +526,7 @@ CMakeFiles/1.dir/clean:
 CMakeFiles/example52.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example52.dir/build.make CMakeFiles/example52.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example52.dir/build.make CMakeFiles/example52.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=42,43 "Built target example52"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=41,42 "Built target example52"
 .PHONY : CMakeFiles/example52.dir/all
 
 # Build rule for subdir invocation for target.
@@ -522,7 +553,7 @@ CMakeFiles/example52.dir/clean:
 CMakeFiles/example51.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example51.dir/build.make CMakeFiles/example51.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example51.dir/build.make CMakeFiles/example51.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=41 "Built target example51"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=40 "Built target example51"
 .PHONY : CMakeFiles/example51.dir/all
 
 # Build rule for subdir invocation for target.
@@ -549,7 +580,7 @@ CMakeFiles/example51.dir/clean:
 CMakeFiles/example42.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example42.dir/build.make CMakeFiles/example42.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example42.dir/build.make CMakeFiles/example42.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=36,37 "Built target example42"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=35,36 "Built target example42"
 .PHONY : CMakeFiles/example42.dir/all
 
 # Build rule for subdir invocation for target.
@@ -576,12 +607,12 @@ CMakeFiles/example42.dir/clean:
 CMakeFiles/simple22.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple22.dir/build.make CMakeFiles/simple22.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple22.dir/build.make CMakeFiles/simple22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=56 "Built target simple22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target simple22"
 .PHONY : CMakeFiles/simple22.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple22.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple22.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple22.dir/rule
@@ -603,12 +634,12 @@ CMakeFiles/simple22.dir/clean:
 CMakeFiles/simple63.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple63.dir/build.make CMakeFiles/simple63.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple63.dir/build.make CMakeFiles/simple63.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=86 "Built target simple63"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=83,84 "Built target simple63"
 .PHONY : CMakeFiles/simple63.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple63.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple63.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple63.dir/rule
@@ -657,12 +688,12 @@ CMakeFiles/c_tutorial.dir/clean:
 CMakeFiles/simple61.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple61.dir/build.make CMakeFiles/simple61.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple61.dir/build.make CMakeFiles/simple61.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=83 "Built target simple61"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=80,81 "Built target simple61"
 .PHONY : CMakeFiles/simple61.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple61.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple61.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple61.dir/rule
@@ -684,7 +715,7 @@ CMakeFiles/simple61.dir/clean:
 CMakeFiles/simple81.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple81.dir/build.make CMakeFiles/simple81.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple81.dir/build.make CMakeFiles/simple81.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=95 "Built target simple81"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=92 "Built target simple81"
 .PHONY : CMakeFiles/simple81.dir/all
 
 # Build rule for subdir invocation for target.
@@ -711,12 +742,12 @@ CMakeFiles/simple81.dir/clean:
 CMakeFiles/simple53.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple53.dir/build.make CMakeFiles/simple53.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=81,82 "Built target simple53"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=79 "Built target simple53"
 .PHONY : CMakeFiles/simple53.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple53.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple53.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple53.dir/rule
@@ -738,12 +769,12 @@ CMakeFiles/simple53.dir/clean:
 CMakeFiles/simple51.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple51.dir/build.make CMakeFiles/simple51.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=78,79 "Built target simple51"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=76 "Built target simple51"
 .PHONY : CMakeFiles/simple51.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple51.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple51.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple51.dir/rule
@@ -765,12 +796,12 @@ CMakeFiles/simple51.dir/clean:
 CMakeFiles/example31.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example31.dir/build.make CMakeFiles/example31.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example31.dir/build.make CMakeFiles/example31.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=27,28 "Built target example31"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=27 "Built target example31"
 .PHONY : CMakeFiles/example31.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example31.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example31.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example31.dir/rule
@@ -792,7 +823,7 @@ CMakeFiles/example31.dir/clean:
 CMakeFiles/example34.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example34.dir/build.make CMakeFiles/example34.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example34.dir/build.make CMakeFiles/example34.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=32 "Built target example34"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=31 "Built target example34"
 .PHONY : CMakeFiles/example34.dir/all
 
 # Build rule for subdir invocation for target.
@@ -846,7 +877,7 @@ CMakeFiles/example2.dir/clean:
 CMakeFiles/example32.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example32.dir/build.make CMakeFiles/example32.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example32.dir/build.make CMakeFiles/example32.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=29 "Built target example32"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=28 "Built target example32"
 .PHONY : CMakeFiles/example32.dir/all
 
 # Build rule for subdir invocation for target.
@@ -873,12 +904,12 @@ CMakeFiles/example32.dir/clean:
 CMakeFiles/example27.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example27.dir/build.make CMakeFiles/example27.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example27.dir/build.make CMakeFiles/example27.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target example27"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=21 "Built target example27"
 .PHONY : CMakeFiles/example27.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example27.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example27.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example27.dir/rule
@@ -900,12 +931,12 @@ CMakeFiles/example27.dir/clean:
 CMakeFiles/simple43.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple43.dir/build.make CMakeFiles/simple43.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple43.dir/build.make CMakeFiles/simple43.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=75,76 "Built target simple43"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=73 "Built target simple43"
 .PHONY : CMakeFiles/simple43.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple43.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple43.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple43.dir/rule
@@ -927,7 +958,7 @@ CMakeFiles/simple43.dir/clean:
 CMakeFiles/simple42.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple42.dir/build.make CMakeFiles/simple42.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple42.dir/build.make CMakeFiles/simple42.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=74 "Built target simple42"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=72 "Built target simple42"
 .PHONY : CMakeFiles/simple42.dir/all
 
 # Build rule for subdir invocation for target.
@@ -954,12 +985,12 @@ CMakeFiles/simple42.dir/clean:
 CMakeFiles/example28.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example28.dir/build.make CMakeFiles/example28.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example28.dir/build.make CMakeFiles/example28.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=23 "Built target example28"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=22,23 "Built target example28"
 .PHONY : CMakeFiles/example28.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example28.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example28.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example28.dir/rule
@@ -981,7 +1012,7 @@ CMakeFiles/example28.dir/clean:
 CMakeFiles/example41.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example41.dir/build.make CMakeFiles/example41.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example41.dir/build.make CMakeFiles/example41.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=35 "Built target example41"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=34 "Built target example41"
 .PHONY : CMakeFiles/example41.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1008,12 +1039,12 @@ CMakeFiles/example41.dir/clean:
 CMakeFiles/example29.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example29.dir/build.make CMakeFiles/example29.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example29.dir/build.make CMakeFiles/example29.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=24,25 "Built target example29"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=24 "Built target example29"
 .PHONY : CMakeFiles/example29.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example29.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example29.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example29.dir/rule
@@ -1035,12 +1066,12 @@ CMakeFiles/example29.dir/clean:
 CMakeFiles/example22.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example22.dir/build.make CMakeFiles/example22.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example22.dir/build.make CMakeFiles/example22.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=17 "Built target example22"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=16,17 "Built target example22"
 .PHONY : CMakeFiles/example22.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example22.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example22.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example22.dir/rule
@@ -1062,12 +1093,12 @@ CMakeFiles/example22.dir/clean:
 CMakeFiles/example21.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example21.dir/build.make CMakeFiles/example21.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example21.dir/build.make CMakeFiles/example21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target example21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=15 "Built target example21"
 .PHONY : CMakeFiles/example21.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example21.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example21.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example21.dir/rule
@@ -1089,12 +1120,12 @@ CMakeFiles/example21.dir/clean:
 CMakeFiles/homework_review.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/homework_review.dir/build.make CMakeFiles/homework_review.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/homework_review.dir/build.make CMakeFiles/homework_review.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target homework_review"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=47 "Built target homework_review"
 .PHONY : CMakeFiles/homework_review.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/homework_review.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/homework_review.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/homework_review.dir/rule
@@ -1116,7 +1147,7 @@ CMakeFiles/homework_review.dir/clean:
 CMakeFiles/simple33.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple33.dir/build.make CMakeFiles/simple33.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple33.dir/build.make CMakeFiles/simple33.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=66,67 "Built target simple33"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=64,65 "Built target simple33"
 .PHONY : CMakeFiles/simple33.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1143,12 +1174,12 @@ CMakeFiles/simple33.dir/clean:
 CMakeFiles/simple62.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple62.dir/build.make CMakeFiles/simple62.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple62.dir/build.make CMakeFiles/simple62.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=84,85 "Built target simple62"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=82 "Built target simple62"
 .PHONY : CMakeFiles/simple62.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple62.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple62.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple62.dir/rule
@@ -1170,7 +1201,7 @@ CMakeFiles/simple62.dir/clean:
 CMakeFiles/simple32.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple32.dir/build.make CMakeFiles/simple32.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple32.dir/build.make CMakeFiles/simple32.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=65 "Built target simple32"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=63 "Built target simple32"
 .PHONY : CMakeFiles/simple32.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1197,7 +1228,7 @@ CMakeFiles/simple32.dir/clean:
 CMakeFiles/example33.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example33.dir/build.make CMakeFiles/example33.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example33.dir/build.make CMakeFiles/example33.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target example33"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=29,30 "Built target example33"
 .PHONY : CMakeFiles/example33.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1224,7 +1255,7 @@ CMakeFiles/example33.dir/clean:
 CMakeFiles/simple31.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple31.dir/build.make CMakeFiles/simple31.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple31.dir/build.make CMakeFiles/simple31.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=63,64 "Built target simple31"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=61,62 "Built target simple31"
 .PHONY : CMakeFiles/simple31.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1251,7 +1282,7 @@ CMakeFiles/simple31.dir/clean:
 CMakeFiles/simple36.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple36.dir/build.make CMakeFiles/simple36.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple36.dir/build.make CMakeFiles/simple36.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=71 "Built target simple36"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=69 "Built target simple36"
 .PHONY : CMakeFiles/simple36.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1278,7 +1309,7 @@ CMakeFiles/simple36.dir/clean:
 CMakeFiles/example43.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example43.dir/build.make CMakeFiles/example43.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example43.dir/build.make CMakeFiles/example43.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=38 "Built target example43"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=37 "Built target example43"
 .PHONY : CMakeFiles/example43.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1305,7 +1336,7 @@ CMakeFiles/example43.dir/clean:
 CMakeFiles/simple24.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple24.dir/build.make CMakeFiles/simple24.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple24.dir/build.make CMakeFiles/simple24.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=59 "Built target simple24"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=57 "Built target simple24"
 .PHONY : CMakeFiles/simple24.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1332,12 +1363,12 @@ CMakeFiles/simple24.dir/clean:
 CMakeFiles/example7.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example7.dir/build.make CMakeFiles/example7.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example7.dir/build.make CMakeFiles/example7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target example7"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=44 "Built target example7"
 .PHONY : CMakeFiles/example7.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example7.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example7.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example7.dir/rule
@@ -1359,7 +1390,7 @@ CMakeFiles/example7.dir/clean:
 CMakeFiles/example5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example5.dir/build.make CMakeFiles/example5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example5.dir/build.make CMakeFiles/example5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=39,40 "Built target example5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=38,39 "Built target example5"
 .PHONY : CMakeFiles/example5.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1386,7 +1417,7 @@ CMakeFiles/example5.dir/clean:
 CMakeFiles/example6.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example6.dir/build.make CMakeFiles/example6.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example6.dir/build.make CMakeFiles/example6.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=44 "Built target example6"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=43 "Built target example6"
 .PHONY : CMakeFiles/example6.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1413,12 +1444,12 @@ CMakeFiles/example6.dir/clean:
 CMakeFiles/example3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example3.dir/build.make CMakeFiles/example3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example3.dir/build.make CMakeFiles/example3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=26 "Built target example3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=25,26 "Built target example3"
 .PHONY : CMakeFiles/example3.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example3.dir/rule
@@ -1440,12 +1471,12 @@ CMakeFiles/example3.dir/clean:
 CMakeFiles/simple23.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple23.dir/build.make CMakeFiles/simple23.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple23.dir/build.make CMakeFiles/simple23.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=57,58 "Built target simple23"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=56 "Built target simple23"
 .PHONY : CMakeFiles/simple23.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple23.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple23.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple23.dir/rule
@@ -1467,7 +1498,7 @@ CMakeFiles/simple23.dir/clean:
 CMakeFiles/simple4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple4.dir/build.make CMakeFiles/simple4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple4.dir/build.make CMakeFiles/simple4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=72,73 "Built target simple4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=70,71 "Built target simple4"
 .PHONY : CMakeFiles/simple4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1494,7 +1525,7 @@ CMakeFiles/simple4.dir/clean:
 CMakeFiles/simple72.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple72.dir/build.make CMakeFiles/simple72.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple72.dir/build.make CMakeFiles/simple72.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=89 "Built target simple72"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=86 "Built target simple72"
 .PHONY : CMakeFiles/simple72.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1521,7 +1552,7 @@ CMakeFiles/simple72.dir/clean:
 CMakeFiles/example4.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example4.dir/build.make CMakeFiles/example4.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example4.dir/build.make CMakeFiles/example4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=33,34 "Built target example4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=32,33 "Built target example4"
 .PHONY : CMakeFiles/example4.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1602,12 +1633,12 @@ CMakeFiles/14.dir/clean:
 CMakeFiles/example25.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example25.dir/build.make CMakeFiles/example25.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example25.dir/build.make CMakeFiles/example25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=18,19 "Built target example25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=18 "Built target example25"
 .PHONY : CMakeFiles/example25.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example25.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example25.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example25.dir/rule
@@ -1623,18 +1654,45 @@ CMakeFiles/example25.dir/clean:
 .PHONY : CMakeFiles/example25.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/simple92.dir
+
+# All Build rule for target.
+CMakeFiles/simple92.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple92.dir/build.make CMakeFiles/simple92.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple92.dir/build.make CMakeFiles/simple92.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=96,97 "Built target simple92"
+.PHONY : CMakeFiles/simple92.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/simple92.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple92.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/simple92.dir/rule
+
+# Convenience name for target.
+simple92: CMakeFiles/simple92.dir/rule
+
+.PHONY : simple92
+
+# clean rule for target.
+CMakeFiles/simple92.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple92.dir/build.make CMakeFiles/simple92.dir/clean
+.PHONY : CMakeFiles/simple92.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/simple44.dir
 
 # All Build rule for target.
 CMakeFiles/simple44.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple44.dir/build.make CMakeFiles/simple44.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple44.dir/build.make CMakeFiles/simple44.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=77 "Built target simple44"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=74,75 "Built target simple44"
 .PHONY : CMakeFiles/simple44.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple44.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple44.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple44.dir/rule
@@ -1656,12 +1714,12 @@ CMakeFiles/simple44.dir/clean:
 CMakeFiles/simple21.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple21.dir/build.make CMakeFiles/simple21.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple21.dir/build.make CMakeFiles/simple21.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=54,55 "Built target simple21"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=53 "Built target simple21"
 .PHONY : CMakeFiles/simple21.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple21.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple21.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple21.dir/rule
@@ -1683,12 +1741,12 @@ CMakeFiles/simple21.dir/clean:
 CMakeFiles/simple2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple2.dir/build.make CMakeFiles/simple2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple2.dir/build.make CMakeFiles/simple2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=53 "Built target simple2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target simple2"
 .PHONY : CMakeFiles/simple2.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple2.dir/rule
@@ -1710,7 +1768,7 @@ CMakeFiles/simple2.dir/clean:
 CMakeFiles/simple3.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple3.dir/build.make CMakeFiles/simple3.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple3.dir/build.make CMakeFiles/simple3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=62 "Built target simple3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=60 "Built target simple3"
 .PHONY : CMakeFiles/simple3.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1737,7 +1795,7 @@ CMakeFiles/simple3.dir/clean:
 CMakeFiles/simple25.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple25.dir/build.make CMakeFiles/simple25.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple25.dir/build.make CMakeFiles/simple25.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=60,61 "Built target simple25"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=58,59 "Built target simple25"
 .PHONY : CMakeFiles/simple25.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1764,7 +1822,7 @@ CMakeFiles/simple25.dir/clean:
 CMakeFiles/simple35.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple35.dir/build.make CMakeFiles/simple35.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple35.dir/build.make CMakeFiles/simple35.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=69,70 "Built target simple35"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=67,68 "Built target simple35"
 .PHONY : CMakeFiles/simple35.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1818,12 +1876,12 @@ CMakeFiles/9.dir/clean:
 CMakeFiles/simple1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple1.dir/build.make CMakeFiles/simple1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple1.dir/build.make CMakeFiles/simple1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=51,52 "Built target simple1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=50 "Built target simple1"
 .PHONY : CMakeFiles/simple1.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple1.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple1.dir/rule
@@ -1845,7 +1903,7 @@ CMakeFiles/simple1.dir/clean:
 CMakeFiles/simple34.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple34.dir/build.make CMakeFiles/simple34.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple34.dir/build.make CMakeFiles/simple34.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=68 "Built target simple34"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=66 "Built target simple34"
 .PHONY : CMakeFiles/simple34.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1872,12 +1930,12 @@ CMakeFiles/simple34.dir/clean:
 CMakeFiles/sample41.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample41.dir/build.make CMakeFiles/sample41.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sample41.dir/build.make CMakeFiles/sample41.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=50 "Built target sample41"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=48,49 "Built target sample41"
 .PHONY : CMakeFiles/sample41.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sample41.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/sample41.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/sample41.dir/rule
@@ -1899,12 +1957,12 @@ CMakeFiles/sample41.dir/clean:
 CMakeFiles/example26.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example26.dir/build.make CMakeFiles/example26.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example26.dir/build.make CMakeFiles/example26.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=20 "Built target example26"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target example26"
 .PHONY : CMakeFiles/example26.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example26.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example26.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example26.dir/rule
@@ -1953,12 +2011,12 @@ CMakeFiles/4.dir/clean:
 CMakeFiles/simple52.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple52.dir/build.make CMakeFiles/simple52.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=80 "Built target simple52"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=77,78 "Built target simple52"
 .PHONY : CMakeFiles/simple52.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/simple52.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/simple52.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/simple52.dir/rule
@@ -1980,12 +2038,12 @@ CMakeFiles/simple52.dir/clean:
 CMakeFiles/example8.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example8.dir/build.make CMakeFiles/example8.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example8.dir/build.make CMakeFiles/example8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=47 "Built target example8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target example8"
 .PHONY : CMakeFiles/example8.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/example8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/example8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/example8.dir/rule

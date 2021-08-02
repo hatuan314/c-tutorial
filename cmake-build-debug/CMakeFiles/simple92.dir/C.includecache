@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss9_linked_list/simple92.c
+stdio.h
+-
+stdlib.h
+-
+

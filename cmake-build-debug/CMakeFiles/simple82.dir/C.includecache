@@ -6,7 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss8_struct/11.c
+/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss8_struct/simple82.c
 stdio.h
+-
+stdlib.h
 -
 

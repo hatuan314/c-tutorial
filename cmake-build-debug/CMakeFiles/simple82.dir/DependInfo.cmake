@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss8_struct/11.c" "/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple82.dir/Sessions/ss8_struct/11.c.o"
+  "/Users/tuanha/Work/KIT/C_lang/c-tutorial/Sessions/ss8_struct/simple82.c" "/Users/tuanha/Work/KIT/C_lang/c-tutorial/cmake-build-debug/CMakeFiles/simple82.dir/Sessions/ss8_struct/simple82.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

@@ -130,6 +130,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named simple91
+
+# Build rule for target.
+simple91: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple91
+.PHONY : simple91
+
+# fast build rule for target.
+simple91/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple91.dir/build.make CMakeFiles/simple91.dir/build
+.PHONY : simple91/fast
+
+#=============================================================================
 # Target rules for targets named 11_struct
 
 # Build rule for target.
@@ -804,6 +817,19 @@ example25: cmake_check_build_system
 example25/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/example25.dir/build.make CMakeFiles/example25.dir/build
 .PHONY : example25/fast
+
+#=============================================================================
+# Target rules for targets named simple92
+
+# Build rule for target.
+simple92: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple92
+.PHONY : simple92
+
+# fast build rule for target.
+simple92/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple92.dir/build.make CMakeFiles/simple92.dir/build
+.PHONY : simple92/fast
 
 #=============================================================================
 # Target rules for targets named simple44
@@ -2630,7 +2656,6 @@ Sessions/ss8_struct/11.o: Sessions/ss8_struct/11.c.o
 # target to build an object file
 Sessions/ss8_struct/11.c.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/11.dir/build.make CMakeFiles/11.dir/Sessions/ss8_struct/11.c.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple82.dir/build.make CMakeFiles/simple82.dir/Sessions/ss8_struct/11.c.o
 .PHONY : Sessions/ss8_struct/11.c.o
 
 Sessions/ss8_struct/11.i: Sessions/ss8_struct/11.c.i
@@ -2640,7 +2665,6 @@ Sessions/ss8_struct/11.i: Sessions/ss8_struct/11.c.i
 # target to preprocess a source file
 Sessions/ss8_struct/11.c.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/11.dir/build.make CMakeFiles/11.dir/Sessions/ss8_struct/11.c.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple82.dir/build.make CMakeFiles/simple82.dir/Sessions/ss8_struct/11.c.i
 .PHONY : Sessions/ss8_struct/11.c.i
 
 Sessions/ss8_struct/11.s: Sessions/ss8_struct/11.c.s
@@ -2650,7 +2674,6 @@ Sessions/ss8_struct/11.s: Sessions/ss8_struct/11.c.s
 # target to generate assembly for a file
 Sessions/ss8_struct/11.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/11.dir/build.make CMakeFiles/11.dir/Sessions/ss8_struct/11.c.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple82.dir/build.make CMakeFiles/simple82.dir/Sessions/ss8_struct/11.c.s
 .PHONY : Sessions/ss8_struct/11.c.s
 
 Sessions/ss8_struct/11_struct.o: Sessions/ss8_struct/11_struct.c.o
@@ -2706,6 +2729,87 @@ Sessions/ss8_struct/simple81.s: Sessions/ss8_struct/simple81.c.s
 Sessions/ss8_struct/simple81.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple81.dir/build.make CMakeFiles/simple81.dir/Sessions/ss8_struct/simple81.c.s
 .PHONY : Sessions/ss8_struct/simple81.c.s
+
+Sessions/ss8_struct/simple82.o: Sessions/ss8_struct/simple82.c.o
+
+.PHONY : Sessions/ss8_struct/simple82.o
+
+# target to build an object file
+Sessions/ss8_struct/simple82.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple82.dir/build.make CMakeFiles/simple82.dir/Sessions/ss8_struct/simple82.c.o
+.PHONY : Sessions/ss8_struct/simple82.c.o
+
+Sessions/ss8_struct/simple82.i: Sessions/ss8_struct/simple82.c.i
+
+.PHONY : Sessions/ss8_struct/simple82.i
+
+# target to preprocess a source file
+Sessions/ss8_struct/simple82.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple82.dir/build.make CMakeFiles/simple82.dir/Sessions/ss8_struct/simple82.c.i
+.PHONY : Sessions/ss8_struct/simple82.c.i
+
+Sessions/ss8_struct/simple82.s: Sessions/ss8_struct/simple82.c.s
+
+.PHONY : Sessions/ss8_struct/simple82.s
+
+# target to generate assembly for a file
+Sessions/ss8_struct/simple82.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple82.dir/build.make CMakeFiles/simple82.dir/Sessions/ss8_struct/simple82.c.s
+.PHONY : Sessions/ss8_struct/simple82.c.s
+
+Sessions/ss9_linked_list/simple91.o: Sessions/ss9_linked_list/simple91.c.o
+
+.PHONY : Sessions/ss9_linked_list/simple91.o
+
+# target to build an object file
+Sessions/ss9_linked_list/simple91.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple91.dir/build.make CMakeFiles/simple91.dir/Sessions/ss9_linked_list/simple91.c.o
+.PHONY : Sessions/ss9_linked_list/simple91.c.o
+
+Sessions/ss9_linked_list/simple91.i: Sessions/ss9_linked_list/simple91.c.i
+
+.PHONY : Sessions/ss9_linked_list/simple91.i
+
+# target to preprocess a source file
+Sessions/ss9_linked_list/simple91.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple91.dir/build.make CMakeFiles/simple91.dir/Sessions/ss9_linked_list/simple91.c.i
+.PHONY : Sessions/ss9_linked_list/simple91.c.i
+
+Sessions/ss9_linked_list/simple91.s: Sessions/ss9_linked_list/simple91.c.s
+
+.PHONY : Sessions/ss9_linked_list/simple91.s
+
+# target to generate assembly for a file
+Sessions/ss9_linked_list/simple91.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple91.dir/build.make CMakeFiles/simple91.dir/Sessions/ss9_linked_list/simple91.c.s
+.PHONY : Sessions/ss9_linked_list/simple91.c.s
+
+Sessions/ss9_linked_list/simple92.o: Sessions/ss9_linked_list/simple92.c.o
+
+.PHONY : Sessions/ss9_linked_list/simple92.o
+
+# target to build an object file
+Sessions/ss9_linked_list/simple92.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple92.dir/build.make CMakeFiles/simple92.dir/Sessions/ss9_linked_list/simple92.c.o
+.PHONY : Sessions/ss9_linked_list/simple92.c.o
+
+Sessions/ss9_linked_list/simple92.i: Sessions/ss9_linked_list/simple92.c.i
+
+.PHONY : Sessions/ss9_linked_list/simple92.i
+
+# target to preprocess a source file
+Sessions/ss9_linked_list/simple92.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple92.dir/build.make CMakeFiles/simple92.dir/Sessions/ss9_linked_list/simple92.c.i
+.PHONY : Sessions/ss9_linked_list/simple92.c.i
+
+Sessions/ss9_linked_list/simple92.s: Sessions/ss9_linked_list/simple92.c.s
+
+.PHONY : Sessions/ss9_linked_list/simple92.s
+
+# target to generate assembly for a file
+Sessions/ss9_linked_list/simple92.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple92.dir/build.make CMakeFiles/simple92.dir/Sessions/ss9_linked_list/simple92.c.s
+.PHONY : Sessions/ss9_linked_list/simple92.c.s
 
 main.o: main.c.o
 
@@ -2834,6 +2938,8 @@ help:
 	@echo "... simple75"
 	@echo "... simple81"
 	@echo "... simple82"
+	@echo "... simple91"
+	@echo "... simple92"
 	@echo "... solonnhattrong2socontro1"
 	@echo "... test"
 	@echo "... Homeworks/homework_1st/example1.o"
@@ -3025,6 +3131,15 @@ help:
 	@echo "... Sessions/ss8_struct/simple81.o"
 	@echo "... Sessions/ss8_struct/simple81.i"
 	@echo "... Sessions/ss8_struct/simple81.s"
+	@echo "... Sessions/ss8_struct/simple82.o"
+	@echo "... Sessions/ss8_struct/simple82.i"
+	@echo "... Sessions/ss8_struct/simple82.s"
+	@echo "... Sessions/ss9_linked_list/simple91.o"
+	@echo "... Sessions/ss9_linked_list/simple91.i"
+	@echo "... Sessions/ss9_linked_list/simple91.s"
+	@echo "... Sessions/ss9_linked_list/simple92.o"
+	@echo "... Sessions/ss9_linked_list/simple92.i"
+	@echo "... Sessions/ss9_linked_list/simple92.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

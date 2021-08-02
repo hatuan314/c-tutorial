@@ -3,6 +3,7 @@
  */
 
 #include <stdio.h>
+#include <stdlib.h>
 
 struct Student {
     char name[50];
@@ -46,14 +47,16 @@ void setStudentList(struct Student *studentList, int max) {
 }
 
 int main() {
-    struct Student studentList[50];
+    struct Student *studentList;
     int max;
     do {
         printf("So luong sinh vien can nhap? ");
         scanf("%d", &max);
     } while (max > 50);
+    studentList = (struct Student *) malloc(max * sizeof (struct Student));
     fflush(stdin);
     setStudentList(studentList, max);
     showAllInfo(studentList, max);
+    free(0);
     return 0;
 }
